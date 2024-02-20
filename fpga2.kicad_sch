@@ -1378,11 +1378,11 @@
     (stroke (width 0) (type default))
     (uuid 10420025-8c37-41a7-982b-5a3e32dbf45b)
   )
-  (wire (pts (xy 21.59 82.55) (xy 39.37 82.55))
+  (wire (pts (xy 36.83 82.55) (xy 39.37 82.55))
     (stroke (width 0) (type default))
     (uuid 1987e2c0-8f4a-42af-a354-4d45d866f796)
   )
-  (wire (pts (xy 20.32 80.01) (xy 39.37 80.01))
+  (wire (pts (xy 36.83 80.01) (xy 39.37 80.01))
     (stroke (width 0) (type default))
     (uuid 1c57f32f-c03c-4aa0-820a-41daac91a7e2)
   )
@@ -1466,7 +1466,7 @@
     (stroke (width 0) (type default))
     (uuid 3ef87544-5d94-4a38-8c77-6398660ae382)
   )
-  (wire (pts (xy 21.59 90.17) (xy 39.37 90.17))
+  (wire (pts (xy 36.83 90.17) (xy 39.37 90.17))
     (stroke (width 0) (type default))
     (uuid 4120a8c1-9186-451a-abfe-f449f11e9823)
   )
@@ -1550,7 +1550,7 @@
     (stroke (width 0) (type default))
     (uuid 6fcd3aa4-d18a-489c-a0c8-4b8eab3cc52e)
   )
-  (wire (pts (xy 21.59 57.15) (xy 39.37 57.15))
+  (wire (pts (xy 36.83 57.15) (xy 39.37 57.15))
     (stroke (width 0) (type default))
     (uuid 73692474-bf70-488f-8e89-e4b7d2c4695f)
   )
@@ -1566,7 +1566,7 @@
     (stroke (width 0) (type default))
     (uuid 7b87f382-de6e-4530-a4c7-7e93ced8b2e6)
   )
-  (wire (pts (xy 20.32 54.61) (xy 39.37 54.61))
+  (wire (pts (xy 36.83 54.61) (xy 39.37 54.61))
     (stroke (width 0) (type default))
     (uuid 7d7d4d67-9fcb-4eec-89bb-f3c85c152952)
   )
@@ -1638,7 +1638,7 @@
     (stroke (width 0) (type default))
     (uuid a098d05e-639b-4a67-921c-f0fb2f1cab53)
   )
-  (wire (pts (xy 21.59 74.93) (xy 39.37 74.93))
+  (wire (pts (xy 36.83 74.93) (xy 39.37 74.93))
     (stroke (width 0) (type default))
     (uuid a54505cb-5bdb-4574-86ce-4d4f809374e2)
   )
@@ -1899,10 +1899,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "TP2" (shape bidirectional) (at 21.59 90.17 180) (fields_autoplaced)
+  (global_label "TP2" (shape bidirectional) (at 36.83 90.17 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 077553ed-d5b2-4372-bda0-d7a5e68b7c45)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 14.0464 90.17 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 29.2864 90.17 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2165,10 +2165,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "TP4" (shape bidirectional) (at 21.59 57.15 180) (fields_autoplaced)
+  (global_label "TP4" (shape bidirectional) (at 36.83 57.15 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6c120f70-f404-4471-8d9e-3f38bfa0f28a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 14.0464 57.15 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 29.2864 57.15 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2179,10 +2179,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "TP3" (shape bidirectional) (at 21.59 82.55 180) (fields_autoplaced)
+  (global_label "TP3" (shape bidirectional) (at 36.83 82.55 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6cf53d46-ef35-4663-97c5-09305c7f2d3b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 14.0464 82.55 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 29.2864 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2214,10 +2214,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "TP5" (shape output) (at 20.32 80.01 180) (fields_autoplaced)
+  (global_label "TP5" (shape output) (at 36.83 80.01 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7513c1b8-f3e9-44a0-af14-3a967ba6ac4f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 13.8877 80.01 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 30.3977 80.01 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2228,10 +2228,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "TP6" (shape output) (at 20.32 54.61 180) (fields_autoplaced)
+  (global_label "TP6" (shape output) (at 36.83 54.61 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 78e3f706-761f-4da4-a063-8a97bf145f7f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 13.8877 54.61 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 30.3977 54.61 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2242,10 +2242,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "TP1" (shape bidirectional) (at 21.59 74.93 180) (fields_autoplaced)
+  (global_label "TP1" (shape bidirectional) (at 36.83 74.93 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 807450e5-1c98-4a83-8900-4c617ff3309a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 14.0464 74.93 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 29.2864 74.93 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2575,7 +2575,7 @@
   (symbol (lib_id "FPGA_Xilinx_Spartan6:XC6SLX25-FTG256") (at 90.17 107.95 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 132abd58-0c32-4df7-935f-4c6813af8e68)
-    (property "Reference" "U1" (at 90.17 189.23 0)
+    (property "Reference" "U7" (at 90.17 189.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "XC6SLX25-FTG256" (at 90.17 191.77 0)
@@ -2846,7 +2846,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "U1") (unit 2)
+          (reference "U7") (unit 2)
         )
       )
     )
@@ -2855,7 +2855,7 @@
   (symbol (lib_id "Device:R") (at 262.89 83.82 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2023c320-2bcf-4605-84f8-2814382ef1cc)
-    (property "Reference" "R12" (at 260.35 86.36 90)
+    (property "Reference" "R13" (at 260.35 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 260.35 82.55 90)
@@ -2872,7 +2872,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "R12") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2881,7 +2881,7 @@
   (symbol (lib_id "vcc33:VCC3_3") (at 262.89 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24c75bcb-4778-46aa-97ff-7b7240f955df)
-    (property "Reference" "#PWR0132" (at 262.89 83.82 0)
+    (property "Reference" "#PWR064" (at 262.89 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC3_3" (at 261.62 76.2 0)
@@ -2897,7 +2897,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -2906,7 +2906,7 @@
   (symbol (lib_id "Device:C") (at 185.42 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 329fdd2c-0c37-48db-8752-460e581d060a)
-    (property "Reference" "C67" (at 179.07 96.52 90)
+    (property "Reference" "C37" (at 179.07 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 181.61 96.52 90)
@@ -2923,7 +2923,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "C67") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -2932,7 +2932,7 @@
   (symbol (lib_id "vcc33:VCC3_3") (at 49.53 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 391a7789-1628-4da0-aa2e-6e5be8bd222c)
-    (property "Reference" "#PWR0138" (at 49.53 30.48 0)
+    (property "Reference" "#PWR058" (at 49.53 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC3_3" (at 49.53 21.59 0)
@@ -2948,7 +2948,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "#PWR0138") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -2957,7 +2957,7 @@
   (symbol (lib_id "FPGA_Xilinx_Spartan6:XC6SLX25-FTG256") (at 208.28 45.72 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e5c6ed7-41e0-40dc-ac00-19ce2e47744e)
-    (property "Reference" "U1" (at 208.28 25.4 0)
+    (property "Reference" "U7" (at 208.28 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "XC6SLX25-FTG256" (at 208.28 27.94 0)
@@ -3228,7 +3228,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "U1") (unit 3)
+          (reference "U7") (unit 3)
         )
       )
     )
@@ -3237,7 +3237,7 @@
   (symbol (lib_id "power:GND") (at 250.19 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f3e3170-c354-4a65-a39e-8b0c5a30e2e4)
-    (property "Reference" "#PWR081" (at 256.54 53.34 0)
+    (property "Reference" "#PWR063" (at 256.54 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 254.5842 53.213 0)
@@ -3253,7 +3253,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -3262,7 +3262,7 @@
   (symbol (lib_id "Device:R") (at 210.82 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 555c185c-87bc-4d36-ab56-113967a8082d)
-    (property "Reference" "R9" (at 210.82 83.6422 90)
+    (property "Reference" "R12" (at 210.82 83.6422 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 210.82 85.9536 90)
@@ -3279,7 +3279,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "R9") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -3288,7 +3288,7 @@
   (symbol (lib_id "power:GND") (at 194.31 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79aa31a0-fd77-4243-b23d-8f1e52fab4b1)
-    (property "Reference" "#PWR080" (at 194.31 102.87 0)
+    (property "Reference" "#PWR062" (at 194.31 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.437 100.9142 0)
@@ -3304,7 +3304,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -3313,7 +3313,7 @@
   (symbol (lib_id "vcc33:VCC3_3") (at 130.81 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9dcacb01-b0c7-42a5-86f2-3eb806f8fde8)
-    (property "Reference" "#PWR0139" (at 130.81 30.48 0)
+    (property "Reference" "#PWR059" (at 130.81 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC3_3" (at 130.81 21.59 0)
@@ -3329,7 +3329,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -3338,7 +3338,7 @@
   (symbol (lib_id "power:GND") (at 185.42 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc8d45ab-2192-4d84-9a41-524c20a746a2)
-    (property "Reference" "#PWR0210" (at 185.42 102.87 0)
+    (property "Reference" "#PWR060" (at 185.42 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.547 100.9142 0)
@@ -3354,7 +3354,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "#PWR0210") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -3363,7 +3363,7 @@
   (symbol (lib_id "vcc33:VCC3_3") (at 265.43 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f15db8ed-ef7c-4759-aa2b-aabde2ac7b37)
-    (property "Reference" "#PWR0131" (at 265.43 43.18 0)
+    (property "Reference" "#PWR065" (at 265.43 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC3_3" (at 264.16 35.56 0)
@@ -3379,7 +3379,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -3388,7 +3388,7 @@
   (symbol (lib_id "Device:R") (at 265.43 43.18 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f28a5c80-e6e9-4584-b692-0674d529df55)
-    (property "Reference" "R11" (at 262.89 45.72 90)
+    (property "Reference" "R14" (at 262.89 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 262.89 41.91 90)
@@ -3405,7 +3405,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "R11") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3442,7 +3442,7 @@
   (symbol (lib_id "vcc33:VCC3_3") (at 194.31 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd46aaa5-ed51-4b90-84cb-4113817ca00f)
-    (property "Reference" "#PWR079" (at 194.31 82.55 0)
+    (property "Reference" "#PWR061" (at 194.31 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC3_3" (at 193.04 74.93 0)
@@ -3458,7 +3458,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )

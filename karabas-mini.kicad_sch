@@ -598,7 +598,7 @@
   (symbol (lib_id "power:GND") (at 120.65 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13b2259c-a5b3-466c-9ed2-840b0c467518)
-    (property "Reference" "#PWR0159" (at 120.65 177.8 0)
+    (property "Reference" "#PWR03" (at 120.65 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.777 175.8442 0)
@@ -614,7 +614,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR0159") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -623,7 +623,7 @@
   (symbol (lib_id "power:GND") (at 102.87 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2675628e-e71d-4ebc-8ac8-35ad90973eb9)
-    (property "Reference" "#PWR0158" (at 102.87 193.04 0)
+    (property "Reference" "#PWR02" (at 102.87 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.997 191.0842 0)
@@ -639,7 +639,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR0158") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -648,7 +648,7 @@
   (symbol (lib_id "power:GND") (at 102.87 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e653eca-a374-4533-96c3-e1dfba169949)
-    (property "Reference" "#PWR0157" (at 102.87 177.8 0)
+    (property "Reference" "#PWR01" (at 102.87 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.997 175.8442 0)
@@ -664,7 +664,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR0157") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -773,7 +773,7 @@
   (symbol (lib_id "power:GND") (at 120.65 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f410c704-66dc-4998-abe8-f5d351a250d3)
-    (property "Reference" "#PWR0160" (at 120.65 193.04 0)
+    (property "Reference" "#PWR04" (at 120.65 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.777 191.0842 0)
@@ -789,7 +789,7 @@
     (instances
       (project "karabas-mini"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR0160") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
