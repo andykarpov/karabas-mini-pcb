@@ -6,8 +6,8 @@
 
   (title_block
     (title "Karabas-Mini")
-    (date "2024-02-20")
-    (rev "A")
+    (date "2024-02-23")
+    (rev "B")
   )
 
   (lib_symbols
@@ -2461,7 +2461,7 @@
     (property "Value" "FT812" (at 107.315 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm" (at 105.41 147.32 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP5.9x5.9mm" (at 105.41 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT81x.pdf" (at 106.68 149.86 0)

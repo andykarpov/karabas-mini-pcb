@@ -6,8 +6,8 @@
 
   (title_block
     (title "Karabas-Mini")
-    (date "2024-02-20")
-    (rev "A")
+    (date "2024-02-23")
+    (rev "B")
   )
 
   (lib_symbols
@@ -1463,8 +1463,6 @@
     (uuid ff95a465-642d-4ab4-97dc-0d383f23dd5f)
   )
 
-  (no_connect (at 142.24 167.64) (uuid f2c8912b-3561-4c80-94b7-a1178c47c159))
-
   (wire (pts (xy 142.24 106.68) (xy 144.78 106.68))
     (stroke (width 0) (type default))
     (uuid 01fa69e7-1f4d-433b-9293-764b67054d96)
@@ -1512,6 +1510,10 @@
   (wire (pts (xy 129.54 25.4) (xy 132.08 25.4))
     (stroke (width 0) (type default))
     (uuid 0b87ea9e-9da6-4b23-bc07-6a46286e4410)
+  )
+  (wire (pts (xy 142.24 167.64) (xy 144.78 167.64))
+    (stroke (width 0) (type default))
+    (uuid 0c6d839a-04e9-48b7-96e8-b24ede985bd0)
   )
   (wire (pts (xy 228.6 105.41) (xy 228.6 107.95))
     (stroke (width 0) (type default))
@@ -2454,6 +2456,13 @@
     (uuid 2be288f2-6f2c-49a4-bac9-5fc429a8ea3e)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 28.2205 71.12 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "UBUS_23" (shape bidirectional) (at 144.78 167.64 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2c6b63ba-4524-4d84-bb36-adec96478cae)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 157.4036 167.64 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "~{MWRL}" (shape output) (at 144.78 91.44 0) (fields_autoplaced)
