@@ -6,8 +6,8 @@
 
   (title_block
     (title "Karabas-Mini")
-    (date "2024-02-23")
-    (rev "B")
+    (date "2024-03-19")
+    (rev "C")
   )
 
   (lib_symbols

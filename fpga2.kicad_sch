@@ -6,8 +6,8 @@
 
   (title_block
     (title "Karabas-Mini")
-    (date "2024-02-23")
-    (rev "B")
+    (date "2024-03-19")
+    (rev "C")
   )
 
   (lib_symbols
@@ -2086,7 +2086,7 @@
   )
   (rectangle (start 176.53 111.76) (end 233.68 154.94)
     (stroke (width 0) (type dash))
-    (fill (type none))
+    (fill (type color) (color 255 229 191 1))
     (uuid 68326a03-45ce-4160-af20-28280c4483ad)
   )
   (rectangle (start 236.22 111.76) (end 281.94 139.7)
