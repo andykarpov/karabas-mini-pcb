@@ -1,4 +1,4 @@
-22663620716547601
+22684213307479756
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91391,6 +91391,76 @@ igbt diode module
 0
 25
 25
+TypeC
+12401598E4#2A
+
+
+0
+28
+28
+TypeC
+HRO-TYPE-C-31-M-12
+
+
+0
+16
+13
+TypeC
+HRO-TYPE-C-31-M-12-Assembly
+
+
+0
+16
+13
+TypeC
+HRO-TYPE-C-31-M-12-HandSoldering
+
+
+0
+16
+13
+TypeC
+HRO-TYPE-C-31-M-13
+
+
+0
+16
+13
+TypeC
+MOLEX_2169890001
+
+
+0
+18
+18
+TypeC
+USB_C_GCT_USB4085
+
+
+0
+20
+17
+TypeC
+Wurth-632723300011
+
+
+0
+32
+27
+TypeC
+Wurth-632723300011-HandSoldering
+
+
+0
+30
+26
+TypeC
+Wurth-632723300011-MaximumExtensionMount
+
+
+0
+32
+27
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -92344,6 +92414,13 @@ HDMI
 23
 20
 footprints
+HDMI_Micro-D_Molex_46765-1x01-nokeep
+HDMI, Micro, Type D, THT, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
+hdmi micro type d right angle tht
+0
+23
+20
+footprints
 IC_TPD12S016RKTR
 
 
@@ -92364,6 +92441,13 @@ diode
 0
 2
 2
+footprints
+LED_D5.0mm-4_RGB_tiny
+LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf
+LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED
+0
+4
+4
 footprints
 MAX9814_module
 
