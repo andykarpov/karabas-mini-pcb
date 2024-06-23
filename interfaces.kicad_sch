@@ -2322,6 +2322,10 @@
     (uuid d06407d6-2336-453d-a794-acc3c1b4572a)
   )
 
+  (text "* revF,F1,F2 uses Molex 2169890001" (at 64.77 144.78 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4f7b9cb9-6765-4407-8fbc-b21f22e26ea0)
+  )
   (text "Power / USB" (at 16.51 193.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 848b7f56-8a00-4eec-8eaa-5ca21e2ed6d0)
@@ -2338,6 +2342,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a78397fd-1001-4708-b633-e526eeb477c4)
   )
+  (text "* rev F3 uses a chinese connector\nhttps://www.aliexpress.com/item/\n1005006199511838.html"
+    (at 64.77 151.13 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b307fc9d-36a4-4d49-a9a1-f33c9b896522)
+  )
   (text "Tape In/Out" (at 29.21 20.32 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c03a1ffc-21cc-4652-b033-b0fc65141619)
@@ -2345,6 +2354,11 @@
   (text "ADC" (at 113.03 20.32 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ec65d9bc-58dd-4c31-b8ac-af0203487703)
+  )
+  (text "Alternatives:\n- Molex 2169890001\n- Kycon KUSBX-SL-CS1N14-B\n- Amphenol 12402054M611A\n"
+    (at 67.31 139.7 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f314e4c6-bbcd-44c6-b07f-ac40054e2879)
   )
 
   (label "D-" (at 19.05 127 0) (fields_autoplaced)
