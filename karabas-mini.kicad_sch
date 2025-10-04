@@ -1,958 +1,2667 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 3ea0d469-753b-4b31-8a3d-1341413bdcc8)
-
-  (paper "A4")
-
-  (title_block
-    (title "Karabas-Mini")
-    (date "2024-05-25")
-    (rev "F")
-  )
-
-  (lib_symbols
-    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole_Pad" (at 0 4.445 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_Pad_0_1"
-        (circle (center 0 1.27) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "MountingHole_Pad_1_1"
-        (pin input line (at 0 -2.54 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (rectangle (start 254 132.08) (end 264.16 137.16)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 00131d38-b089-4ff1-9eee-9b6ff142b4bb)
-  )
-  (rectangle (start 250.19 87.63) (end 250.19 96.52)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 005b336a-d97e-4df1-a9dc-049232c4a130)
-  )
-  (rectangle (start 121.92 83.82) (end 152.4 83.82)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 0129a929-7b02-46e2-8901-3afb0c62f049)
-  )
-  (rectangle (start 243.84 119.38) (end 243.84 134.62)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 023a354a-26af-4362-bccb-28a9814b2bfe)
-  )
-  (rectangle (start 213.36 71.12) (end 254 71.12)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 05ed64ed-cada-4b3a-8651-35cca681b386)
-  )
-  (rectangle (start 111.76 87.63) (end 121.92 92.71)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 0664a49f-9091-477b-8c14-812e36713b69)
-  )
-  (rectangle (start 191.77 64.77) (end 254 64.77)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 0a304f7e-2f07-4eee-ba3c-8e479c496baf)
-  )
-  (rectangle (start 194.31 91.44) (end 201.93 91.44)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 0d71ee5f-b5d5-4608-b21e-2cdd32038831)
-  )
-  (rectangle (start 162.56 66.04) (end 177.8 71.12)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 0ece1b44-a897-4017-ad88-a162d7f698cd)
-  )
-  (rectangle (start 144.78 77.47) (end 152.4 77.47)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 12b9278f-74c5-495d-9bfc-6c8d647d2778)
-  )
-  (rectangle (start 226.06 107.95) (end 254 107.95)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 133f99cd-c0dd-4a66-a85d-303d7e252cd2)
-  )
-  (rectangle (start 226.06 92.71) (end 232.41 92.71)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 13c917ea-6f45-49c6-abf9-c6d2429ff754)
-  )
-  (rectangle (start 121.92 96.52) (end 152.4 96.52)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 1a9b7ce3-665e-4540-8765-9cd9c43219d1)
-  )
-  (rectangle (start 144.78 69.85) (end 154.94 69.85)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 1be94c5f-499f-48b9-8fa8-02a8e2c119bd)
-  )
-  (rectangle (start 186.69 58.42) (end 186.69 74.93)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 2298c978-c902-4e29-b097-24eb25e9145d)
-  )
-  (rectangle (start 226.06 115.57) (end 246.38 115.57)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 22af83c3-e639-45e2-9344-d43343d99356)
-  )
-  (rectangle (start 250.19 83.82) (end 254 83.82)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 244d469e-89ed-443b-9352-c9764d8e5a8a)
-  )
-  (rectangle (start 254 55.88) (end 264.16 60.96)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 26e58d86-fd61-4014-b5e9-18c0f2036f55)
-  )
-  (rectangle (start 254 93.98) (end 264.16 99.06)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 290242ff-44b2-4f91-8084-dd4cd8db0eb1)
-  )
-  (rectangle (start 229.87 99.06) (end 232.41 99.06)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 2975b486-55d3-4547-907f-e02352ae1c27)
-  )
-  (rectangle (start 111.76 106.68) (end 121.92 111.76)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 35f1ac6d-6e95-47ca-b73e-2ed4f9680ce9)
-  )
-  (rectangle (start 111.76 100.33) (end 121.92 105.41)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 3dab039f-476e-417c-9d79-61eeb631b101)
-  )
-  (rectangle (start 208.28 120.65) (end 208.28 138.43)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 3ea8fc6b-85e9-4eeb-8f4c-34b6dee6dcbd)
-  )
-  (rectangle (start 246.38 128.27) (end 254 128.27)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 4041b868-90e8-4dcc-9d1a-a570949d4bf5)
-  )
-  (rectangle (start 250.19 83.82) (end 250.19 87.63)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 446d1d60-d5ab-4c7c-9d49-5403f4545666)
-  )
-  (rectangle (start 254 87.63) (end 264.16 92.71)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 44b874fd-d553-4ed6-8131-fe8e1fa11909)
-  )
-  (rectangle (start 129.54 74.93) (end 144.78 80.01)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 47fc0a66-24bd-4366-b5b7-d739927c0f48)
-  )
-  (rectangle (start 246.38 115.57) (end 246.38 128.27)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 47feefd8-9105-4ef2-b760-79c846b49773)
-  )
-  (rectangle (start 243.84 134.62) (end 254 134.62)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 4cbb612f-57a6-4c5a-8132-c49c5d0ea5ca)
-  )
-  (rectangle (start 152.4 74.93) (end 194.31 120.65)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 4d00efb7-4579-4638-a3bd-c11a8a981781)
-  )
-  (rectangle (start 160.02 124.46) (end 175.26 138.43)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 541091a6-4684-4867-a63c-586383146c31)
-  )
-  (rectangle (start 254 62.23) (end 264.16 67.31)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 619b8d66-6fb1-4331-a7a8-eedabca1fc19)
-  )
-  (rectangle (start 203.2 138.43) (end 213.36 143.51)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 61b4a0bd-dc44-4f5e-be35-5a8b9e76e54a)
-  )
-  (rectangle (start 254 125.73) (end 264.16 130.81)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 6c938232-80c7-4562-8d9a-5fdaacd4d525)
-  )
-  (rectangle (start 232.41 90.17) (end 247.65 95.25)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 6caf5c36-440a-4a63-9953-656ec3159207)
-  )
-  (rectangle (start 250.19 77.47) (end 250.19 83.82)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 6f2d88c9-2551-4e00-8265-4d1567bf1988)
-  )
-  (rectangle (start 194.31 86.36) (end 201.93 86.36)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 7524bdb0-b0fd-4ea8-8f6c-3713dca41cba)
-  )
-  (rectangle (start 186.69 120.65) (end 186.69 124.46)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 77d48d0d-6a6c-43e7-8b97-1a9f5d93faf4)
-  )
-  (rectangle (start 226.06 102.87) (end 254 102.87)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 77f33ad1-a2e9-4ed8-a005-e9746c6d63ea)
-  )
-  (rectangle (start 254 81.28) (end 264.16 86.36)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 7cc703a1-c5cc-4b59-8ecd-6a545129417f)
-  )
-  (rectangle (start 247.65 82.55) (end 250.19 82.55)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 7ede384d-fba1-429d-b7d0-e01dc99db5e6)
-  )
-  (rectangle (start 254 106.68) (end 264.16 111.76)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 8bbab8ec-af85-4a61-bdc8-81ea814fd25c)
-  )
-  (rectangle (start 186.69 58.42) (end 254 58.42)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 91a7715e-6d66-4008-931b-f08d22420c7d)
-  )
-  (rectangle (start 191.77 64.77) (end 191.77 74.93)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 93caf469-779c-40d5-be85-161755fb96c5)
-  )
-  (rectangle (start 111.76 74.93) (end 121.92 80.01)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 93e86035-3ed5-4a5c-8c67-ea880f54f68f)
-  )
-  (rectangle (start 167.64 120.65) (end 167.64 124.46)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 94f2d673-2555-4703-af97-58fcdbc39140)
-  )
-  (rectangle (start 179.07 124.46) (end 194.31 138.43)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 95b3f990-4414-43fb-bb75-54be5ed4e1e9)
-  )
-  (rectangle (start 254 68.58) (end 264.16 73.66)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 97d5b346-7244-43b5-b657-bff123d33c4e)
-  )
-  (rectangle (start 214.63 138.43) (end 224.79 143.51)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid 9be4ec3f-a9d9-4390-8a80-b5b4b8b9b6ae)
-  )
-  (rectangle (start 250.19 96.52) (end 254 96.52)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 9ec1af30-a4d2-4eba-8dcb-83402ede4200)
-  )
-  (rectangle (start 254 100.33) (end 264.16 105.41)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid a71e077b-d7c2-4da2-b671-80920a2e3dab)
-  )
-  (rectangle (start 213.36 71.12) (end 213.36 74.93)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid ab6bd43e-cc32-407f-b1ef-130a3e05357b)
-  )
-  (rectangle (start 201.93 74.93) (end 226.06 120.65)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid b7d661ba-a16f-43c7-9f74-2fe99de40330)
-  )
-  (rectangle (start 121.92 102.87) (end 152.4 102.87)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid bb21a378-76df-45e2-89fe-5f47ecc525c9)
-  )
-  (rectangle (start 121.92 77.47) (end 129.54 77.47)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid c4a3d8fa-b377-4de4-b2fd-7ad41b43dc6e)
-  )
-  (rectangle (start 170.18 71.12) (end 170.18 74.93)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid cb7e3a4a-01cd-434f-9a83-26153a70cd6b)
-  )
-  (rectangle (start 121.92 90.17) (end 152.4 90.17)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid cece84cd-26ab-4118-b870-b7f638a5b89d)
-  )
-  (rectangle (start 154.94 69.85) (end 154.94 74.93)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid d02643fb-8685-428b-83fe-d67f3f43f84a)
-  )
-  (rectangle (start 219.71 120.65) (end 219.71 138.43)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid d21c039d-2dd4-41b6-ab65-26b1a66d635a)
-  )
-  (rectangle (start 250.19 90.17) (end 254 90.17)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid d2cc4aab-37be-4a86-92b9-79b2a2c901eb)
-  )
-  (rectangle (start 194.31 81.28) (end 201.93 81.28)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid d5294b0f-45d3-4f48-a4d6-1ccf014b83b2)
-  )
-  (rectangle (start 250.19 77.47) (end 254 77.47)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid d871bb30-410e-41d5-ac07-406f9468bfea)
-  )
-  (rectangle (start 232.41 96.52) (end 247.65 101.6)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid dac56b22-2d40-4cc1-aa5c-98bb08252c24)
-  )
-  (rectangle (start 254 74.93) (end 264.16 80.01)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid dc774a7c-953f-4962-bd59-457ac28c4ce4)
-  )
-  (rectangle (start 180.34 125.73) (end 195.58 139.7)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid e2958c7e-d03b-4a00-bd3b-80d0983267a3)
-  )
-  (rectangle (start 232.41 74.93) (end 247.65 88.9)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid e52d633d-184c-4aef-b89d-45c8533a0426)
-  )
-  (rectangle (start 129.54 67.31) (end 144.78 72.39)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid e9cc92af-00ae-4c8e-9350-3e44aba0dc5d)
-  )
-  (rectangle (start 226.06 119.38) (end 243.84 119.38)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid ea0b38b2-1883-4ac1-9ed1-8d31b63cf260)
-  )
-  (rectangle (start 111.76 93.98) (end 121.92 99.06)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid f4920c4c-a298-49a4-ad72-b69086b74bbd)
-  )
-  (rectangle (start 226.06 81.28) (end 232.41 81.28)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid f4b4c962-b681-4d5e-8095-4dbd8c12baf5)
-  )
-  (rectangle (start 111.76 81.28) (end 121.92 86.36)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 255 194 1))
-    (uuid f528e8ce-7877-4622-ab4e-a525dfa356d8)
-  )
-  (rectangle (start 229.87 92.71) (end 229.87 99.06)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid f6ab9cd8-72b1-4539-8bbc-7308392e9aa7)
-  )
-  (rectangle (start 106.68 34.29) (end 269.24 148.59)
-    (stroke (width 0) (type dash))
-    (fill (type none))
-    (uuid f7c1bf3c-fa1b-4611-b1c9-26bb84a63706)
-  )
-  (rectangle (start 121.92 109.22) (end 152.4 109.22)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid f8ceb970-b4e6-43ff-a3e8-5de3d0ebf975)
-  )
-  (rectangle (start 33.02 34.29) (end 87.63 149.86)
-    (stroke (width 0) (type dash))
-    (fill (type none))
-    (uuid f9e4894a-5982-475e-8906-bdf28ba40c97)
-  )
-
-  (text "QSPI" (at 227.33 119.38 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 046db59e-1dc8-44ca-bc52-1ba75a7a4fc9)
-  )
-  (text "I2C" (at 227.33 92.71 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0925a845-21c5-4f1c-836e-48c9c6db1379)
-  )
-  (text "I2C RTC" (at 236.22 93.98 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0bb1f8a3-99d6-466f-8ea9-045f54c44eab)
-  )
-  (text "Tape Out" (at 113.03 85.09 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0d7f5c02-bf4a-4496-8907-aa038a2dc77e)
-  )
-  (text "SD 2" (at 114.3 91.44 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 10d1cd2b-55c2-4ee8-a89c-8b45c32c12e4)
-  )
-  (text "DVI" (at 256.54 66.04 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 18de9d27-1ef9-4876-bc59-751cfdad3b33)
-  )
-  (text "USB2" (at 256.54 85.09 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 18f647c7-7dd6-45b6-b702-464dee8d0688)
-  )
-  (text "USB1" (at 256.54 78.74 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 18fee8b3-b858-4f4a-b374-d1aab148572a)
-  )
-  (text "I2C EEPROM" (at 233.68 100.33 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 190c9bad-2ace-4a28-bb96-fd5d9d8f132f)
-  )
-  (text "24 i/o" (at 134.62 96.52 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 21c6bb09-5c92-41c8-aca4-118ce3f244fa)
-  )
-  (text "Flash" (at 114.3 104.14 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 2444bf1e-66f7-40e2-ad29-b89a7c675182)
-  )
-  (text "i/o" (at 196.85 91.44 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 310cb5e0-a569-47bc-90c5-c9299a1f8297)
-  )
-  (text "XC6SLX25\nFPGA" (at 170.18 99.06 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 31768678-7caa-4ed9-86b9-7bf97103b7bc)
-  )
-  (text "Tape In" (at 113.03 78.74 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 374c6260-ad60-4106-b66d-09714c62ea39)
-  )
-  (text "DVI" (at 213.36 64.77 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 375914fe-64ce-4471-8776-7f85f94e85b1)
-  )
-  (text "UART" (at 148.59 69.85 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3a9c3c8f-43a7-4588-8726-21c4c1019991)
-  )
-  (text "RST" (at 217.17 142.24 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3d970599-23f1-4e4a-bb93-d6d8d2c68fa3)
-  )
-  (text "USB\nhub" (at 238.76 83.82 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 47aa7448-7cf8-4a12-9b23-d02e3801a64b)
-  )
-  (text "50 MHz clk" (at 165.1 69.85 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4fe9d435-9f1d-42ad-bcba-12e0debb840a)
-  )
-  (text "SD 1" (at 256.54 129.54 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 52541593-5560-4f63-8538-9fd382dad33e)
-  )
-  (text "SPI" (at 227.33 115.57 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 613326a2-3696-428e-b67c-1c2b3e55c7bd)
-  )
-  (text "LM311" (at 133.35 78.74 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 61910fd0-e39d-428c-886d-a42de3408d91)
-  )
-  (text "USB4" (at 256.54 97.79 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 71a0b17d-d4d0-430a-8a89-932b0ae634f0)
-  )
-  (text "SRAM\n4MB" (at 184.15 133.35 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 81080210-dc46-486d-867c-cfe1bb157642)
-  )
-  (text "Audio" (at 256.54 59.69 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8213df1b-47b5-4264-ab53-dfd49e9bba64)
-  )
-  (text "QSPI" (at 134.62 102.87 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 909913d8-92b8-4837-97aa-9a71ec73dc80)
-  )
-  (text "Functional schematics" (at 109.22 39.37 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid a6d5d6d8-dfe4-411a-8de3-1e5f1e72fa8c)
-  )
-  (text "SDRAM\n32MB" (at 165.1 133.35 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ab3f0b16-557f-498d-9de9-ca40b99d8e86)
-  )
-  (text "LEDs" (at 256.54 104.14 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid acea0d50-dcd5-482e-806f-93430095429e)
-  )
-  (text "SPI" (at 196.85 81.28 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid af06fc91-871f-4456-9921-f93b4b7339c8)
-  )
-  (text "SPI" (at 134.62 90.17 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid af5fb516-a041-448f-83d6-a23bf96d1b84)
-  )
-  (text "PWM Audio" (at 213.36 58.42 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b3ff18e2-d3d0-4595-998d-4a6b9feedc63)
-  )
-  (text "uBUS" (at 114.3 97.79 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b43ca314-9755-44df-bfcc-f888dcfe9dd3)
-  )
-  (text "CFG" (at 196.85 86.36 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid bde71500-f13c-4681-8d6f-f6db83b1e4c6)
-  )
-  (text "USB (UART + Power)" (at 213.36 71.12 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid bdf12554-0f11-4504-bb30-f6138216fbe3)
-  )
-  (text "JTAG" (at 134.62 109.22 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c509cfc0-b6ad-4fae-8b40-5b3d45f4b3ec)
-  )
-  (text "USB C" (at 256.54 72.39 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c5519f85-42eb-4103-ba8e-4070bc8cf938)
-  )
-  (text "USB" (at 227.33 81.28 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c5d1dab4-57b5-4273-9972-ea12565ae0e1)
-  )
-  (text "USB3" (at 256.54 91.44 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d10db631-3d0f-4ec1-b422-03a71b40e697)
-  )
-  (text "Boot" (at 205.74 142.24 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d789f6d6-0ded-4c62-bb3c-0a59211f8a8d)
-  )
-  (text "ESP8266" (at 133.35 71.12 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d9b8b54d-7b64-4f30-b2cf-e8abdba1301d)
-  )
-  (text "Flash" (at 256.54 135.89 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e8279a8e-7247-436e-958f-fe34387380a2)
-  )
-  (text "JTAG" (at 114.3 110.49 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f2d4dc08-5526-45d1-b327-2eefc32c83ad)
-  )
-  (text "Sheets" (at 35.56 39.37 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fb7953e4-9e3e-46fa-81c3-9296679267df)
-  )
-  (text "BTNs" (at 256.54 110.49 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fc491cce-7cce-4a3b-bb0c-be9bb519e249)
-  )
-  (text "RP2040\nMCU" (at 209.55 99.06 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid feb3c914-dfc0-44cd-9952-f0064ba6b880)
-  )
-
-  (symbol (lib_id "power:GND") (at 120.65 171.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 13b2259c-a5b3-466c-9ed2-840b0c467518)
-    (property "Reference" "#PWR03" (at 120.65 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 120.777 175.8442 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 120.65 171.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 120.65 171.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4e60a7e1-8176-4d10-9e68-256ec30c9909))
-    (instances
-      (project "karabas-mini"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR03") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 102.87 186.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2675628e-e71d-4ebc-8ac8-35ad90973eb9)
-    (property "Reference" "#PWR02" (at 102.87 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 102.997 191.0842 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 102.87 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 102.87 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 38b0c4e2-77a3-4a04-bc30-9cfe48ec188c))
-    (instances
-      (project "karabas-mini"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 102.87 171.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5e653eca-a374-4533-96c3-e1dfba169949)
-    (property "Reference" "#PWR01" (at 102.87 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 102.997 175.8442 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 102.87 171.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 102.87 171.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a790865e-7bc8-46f3-a103-733a23e767f1))
-    (instances
-      (project "karabas-mini"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 102.87 184.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6517de66-bc55-4391-a265-05dd9981d87b)
-    (property "Reference" "H2" (at 105.41 182.9816 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 105.41 185.293 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via" (at 102.87 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 102.87 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8cc59083-4374-442e-acbc-786818921732))
-    (instances
-      (project "karabas-mini"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 120.65 184.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 70e9c491-32ea-4da2-9c67-46f2351c78fc)
-    (property "Reference" "H4" (at 123.19 182.9816 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 123.19 185.293 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via" (at 120.65 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 120.65 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 97588bb1-72a5-4f5d-83ec-4f728503849e))
-    (instances
-      (project "karabas-mini"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "H4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 120.65 168.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9472d345-065a-4feb-b4fd-0f4d692b974f)
-    (property "Reference" "H3" (at 123.19 167.7416 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 123.19 170.053 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via" (at 120.65 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 120.65 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2a5fe0f2-8a1d-4473-b0a0-d9fe3d2b6fa6))
-    (instances
-      (project "karabas-mini"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "H3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 102.87 168.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b3b5319d-c769-40ab-ba69-3fe22d4d3ab1)
-    (property "Reference" "H1" (at 105.41 167.7416 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 105.41 170.053 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via" (at 102.87 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 102.87 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fce92d87-8354-4ff0-96ab-02e00a0ab9c7))
-    (instances
-      (project "karabas-mini"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "H1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 120.65 186.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f410c704-66dc-4998-abe8-f5d351a250d3)
-    (property "Reference" "#PWR04" (at 120.65 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 120.777 191.0842 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 120.65 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 120.65 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e264c0ff-8c19-454b-95dc-b5277cd584b8))
-    (instances
-      (project "karabas-mini"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet (at 49.53 73.66) (size 20.32 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 255 255 1.0000))
-    (uuid 1680b5ee-aa42-4fdf-9b7e-2b7396a922a0)
-    (property "Sheetname" "FPGA2" (at 49.53 72.9484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "fpga2.kicad_sch" (at 49.53 81.8646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "karabas-mini"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 49.53 118.11) (size 20.32 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 255 1.0000))
-    (uuid 34157a6c-fe5b-4b27-a58b-efdaac9599d0)
-    (property "Sheetname" "Interfaces" (at 49.53 117.3984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "interfaces.kicad_sch" (at 49.53 126.3146 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "karabas-mini"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 49.53 58.42) (size 20.32 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 255 0 1.0000))
-    (uuid 8156360b-2e6b-4180-bc5a-5f304755f359)
-    (property "Sheetname" "FPGA" (at 49.53 57.7084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "fpga.kicad_sch" (at 49.53 66.6246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "karabas-mini"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 49.53 44.45) (size 20.32 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 153 0 1.0000))
-    (uuid aeb25ef9-b705-4fe0-b117-b7f20e33e486)
-    (property "Sheetname" "RP2040" (at 49.53 43.7384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "rp2040.kicad_sch" (at 49.53 52.6546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "karabas-mini"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 49.53 88.9) (size 20.32 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 0 0 1.0000))
-    (uuid ba614d64-5a02-4c7a-993a-280e504b1e08)
-    (property "Sheetname" "VGA" (at 49.53 88.1884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "vga.kicad_sch" (at 49.53 97.1046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "karabas-mini"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 49.53 104.14) (size 20.32 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 255 0 1.0000))
-    (uuid c9d820c1-ed97-46d5-b9d2-9cd3c5bb0e50)
-    (property "Sheetname" "Storage" (at 49.53 103.4284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "storage.kicad_sch" (at 49.53 112.3446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "karabas-mini"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "7"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3ea0d469-753b-4b31-8a3d-1341413bdcc8")
+	(paper "A4")
+	(title_block
+		(title "Karabas-Mini")
+		(date "2025-09-14")
+		(rev "G")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 254 132.08)
+		(end 264.16 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 00131d38-b089-4ff1-9eee-9b6ff142b4bb)
+	)
+	(rectangle
+		(start 250.19 87.63)
+		(end 250.19 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 005b336a-d97e-4df1-a9dc-049232c4a130)
+	)
+	(rectangle
+		(start 111.76 113.03)
+		(end 121.92 118.11)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 00bc920e-a24e-4ae8-ab53-5725129b9c03)
+	)
+	(rectangle
+		(start 121.92 83.82)
+		(end 152.4 83.82)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0129a929-7b02-46e2-8901-3afb0c62f049)
+	)
+	(rectangle
+		(start 243.84 119.38)
+		(end 243.84 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 023a354a-26af-4362-bccb-28a9814b2bfe)
+	)
+	(rectangle
+		(start 213.36 71.12)
+		(end 254 71.12)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 05ed64ed-cada-4b3a-8651-35cca681b386)
+	)
+	(rectangle
+		(start 242.57 58.42)
+		(end 254 58.4454)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 065a82cc-a9b6-4589-9b8d-fd96ddbbc305)
+	)
+	(rectangle
+		(start 111.76 87.63)
+		(end 121.92 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 0664a49f-9091-477b-8c14-812e36713b69)
+	)
+	(rectangle
+		(start 191.77 64.77)
+		(end 254 64.77)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0a304f7e-2f07-4eee-ba3c-8e479c496baf)
+	)
+	(rectangle
+		(start 111.76 119.38)
+		(end 121.92 124.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 0d1a05e6-1a20-4541-89ce-d82301482d25)
+	)
+	(rectangle
+		(start 194.31 91.44)
+		(end 201.93 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0d71ee5f-b5d5-4608-b21e-2cdd32038831)
+	)
+	(rectangle
+		(start 162.56 66.04)
+		(end 177.8 71.12)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 0ece1b44-a897-4017-ad88-a162d7f698cd)
+	)
+	(rectangle
+		(start 157.4546 120.65)
+		(end 157.48 128.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0faf19c8-8ef4-45a9-981e-2342a8521384)
+	)
+	(rectangle
+		(start 144.78 77.47)
+		(end 152.4 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 12b9278f-74c5-495d-9bfc-6c8d647d2778)
+	)
+	(rectangle
+		(start 226.06 107.95)
+		(end 254 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 133f99cd-c0dd-4a66-a85d-303d7e252cd2)
+	)
+	(rectangle
+		(start 226.06 92.71)
+		(end 232.41 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 13c917ea-6f45-49c6-abf9-c6d2429ff754)
+	)
+	(rectangle
+		(start 121.92 96.52)
+		(end 152.4 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1a9b7ce3-665e-4540-8765-9cd9c43219d1)
+	)
+	(rectangle
+		(start 144.78 69.85)
+		(end 154.94 69.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1be94c5f-499f-48b9-8fa8-02a8e2c119bd)
+	)
+	(rectangle
+		(start 186.69 58.42)
+		(end 186.69 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2298c978-c902-4e29-b097-24eb25e9145d)
+	)
+	(rectangle
+		(start 226.06 115.57)
+		(end 246.38 115.57)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 22af83c3-e639-45e2-9344-d43343d99356)
+	)
+	(rectangle
+		(start 250.19 83.82)
+		(end 254 83.82)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 244d469e-89ed-443b-9352-c9764d8e5a8a)
+	)
+	(rectangle
+		(start 254 55.88)
+		(end 264.16 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 26e58d86-fd61-4014-b5e9-18c0f2036f55)
+	)
+	(rectangle
+		(start 254 93.98)
+		(end 264.16 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 290242ff-44b2-4f91-8084-dd4cd8db0eb1)
+	)
+	(rectangle
+		(start 229.87 99.06)
+		(end 232.41 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2975b486-55d3-4547-907f-e02352ae1c27)
+	)
+	(rectangle
+		(start 111.76 106.68)
+		(end 121.92 111.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 35f1ac6d-6e95-47ca-b73e-2ed4f9680ce9)
+	)
+	(rectangle
+		(start 154.9146 120.65)
+		(end 154.94 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 39f9469d-acdd-44c2-b922-55ebf91293dd)
+	)
+	(rectangle
+		(start 111.76 100.33)
+		(end 121.92 105.41)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 3dab039f-476e-417c-9d79-61eeb631b101)
+	)
+	(rectangle
+		(start 208.28 120.65)
+		(end 208.28 138.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3ea8fc6b-85e9-4eeb-8f4c-34b6dee6dcbd)
+	)
+	(rectangle
+		(start 246.38 128.27)
+		(end 254 128.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4041b868-90e8-4dcc-9d1a-a570949d4bf5)
+	)
+	(rectangle
+		(start 250.19 83.82)
+		(end 250.19 87.63)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 446d1d60-d5ab-4c7c-9d49-5403f4545666)
+	)
+	(rectangle
+		(start 254 87.63)
+		(end 264.16 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 44b874fd-d553-4ed6-8131-fe8e1fa11909)
+	)
+	(rectangle
+		(start 121.92 115.57)
+		(end 152.4 115.57)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 478e3962-3e09-4ae3-8913-fbc7433a659b)
+	)
+	(rectangle
+		(start 129.54 74.93)
+		(end 144.78 80.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 47fc0a66-24bd-4366-b5b7-d739927c0f48)
+	)
+	(rectangle
+		(start 246.38 115.57)
+		(end 246.38 128.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47feefd8-9105-4ef2-b760-79c846b49773)
+	)
+	(arc
+		(start 111.76 121.92)
+		(mid 110.1818 118.11)
+		(end 111.76 114.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4c841311-5273-4fbf-be3e-3d3459f3401f)
+	)
+	(rectangle
+		(start 243.84 134.62)
+		(end 254 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4cbb612f-57a6-4c5a-8132-c49c5d0ea5ca)
+	)
+	(rectangle
+		(start 152.4 74.93)
+		(end 194.31 120.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 4d00efb7-4579-4638-a3bd-c11a8a981781)
+	)
+	(rectangle
+		(start 121.92 121.8946)
+		(end 154.94 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4eb24ec5-0eb5-42ca-b495-095391f119bb)
+	)
+	(rectangle
+		(start 160.02 124.46)
+		(end 175.26 138.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 541091a6-4684-4867-a63c-586383146c31)
+	)
+	(rectangle
+		(start 232.41 55.88)
+		(end 242.57 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 5ef8fae4-a160-4cd3-9d82-b995a9203ba9)
+	)
+	(rectangle
+		(start 254 62.23)
+		(end 264.16 67.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 619b8d66-6fb1-4331-a7a8-eedabca1fc19)
+	)
+	(rectangle
+		(start 203.2 138.43)
+		(end 213.36 143.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 61b4a0bd-dc44-4f5e-be35-5a8b9e76e54a)
+	)
+	(rectangle
+		(start 254 125.73)
+		(end 264.16 130.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 6c938232-80c7-4562-8d9a-5fdaacd4d525)
+	)
+	(rectangle
+		(start 232.41 90.17)
+		(end 247.65 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 6caf5c36-440a-4a63-9953-656ec3159207)
+	)
+	(rectangle
+		(start 250.19 77.47)
+		(end 250.19 83.82)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6f2d88c9-2551-4e00-8265-4d1567bf1988)
+	)
+	(rectangle
+		(start 194.31 86.36)
+		(end 201.93 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7524bdb0-b0fd-4ea8-8f6c-3713dca41cba)
+	)
+	(rectangle
+		(start 186.69 120.65)
+		(end 186.69 124.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 77d48d0d-6a6c-43e7-8b97-1a9f5d93faf4)
+	)
+	(rectangle
+		(start 226.06 102.87)
+		(end 254 102.87)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 77f33ad1-a2e9-4ed8-a005-e9746c6d63ea)
+	)
+	(rectangle
+		(start 254 81.28)
+		(end 264.16 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 7cc703a1-c5cc-4b59-8ecd-6a545129417f)
+	)
+	(rectangle
+		(start 247.65 82.55)
+		(end 250.19 82.55)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7ede384d-fba1-429d-b7d0-e01dc99db5e6)
+	)
+	(rectangle
+		(start 254 106.68)
+		(end 264.16 111.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 8bbab8ec-af85-4a61-bdc8-81ea814fd25c)
+	)
+	(rectangle
+		(start 186.69 58.3946)
+		(end 232.41 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 91a7715e-6d66-4008-931b-f08d22420c7d)
+	)
+	(rectangle
+		(start 191.77 64.77)
+		(end 191.77 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 93caf469-779c-40d5-be85-161755fb96c5)
+	)
+	(rectangle
+		(start 111.76 74.93)
+		(end 121.92 80.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 93e86035-3ed5-4a5c-8c67-ea880f54f68f)
+	)
+	(rectangle
+		(start 167.64 120.65)
+		(end 167.64 124.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 94f2d673-2555-4703-af97-58fcdbc39140)
+	)
+	(rectangle
+		(start 179.07 124.46)
+		(end 194.31 138.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 95b3f990-4414-43fb-bb75-54be5ed4e1e9)
+	)
+	(rectangle
+		(start 254 68.58)
+		(end 264.16 73.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 97d5b346-7244-43b5-b657-bff123d33c4e)
+	)
+	(rectangle
+		(start 214.63 138.43)
+		(end 224.79 143.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 9be4ec3f-a9d9-4390-8a80-b5b4b8b9b6ae)
+	)
+	(rectangle
+		(start 250.19 96.52)
+		(end 254 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9ec1af30-a4d2-4eba-8dcb-83402ede4200)
+	)
+	(rectangle
+		(start 254 100.33)
+		(end 264.16 105.41)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid a71e077b-d7c2-4da2-b671-80920a2e3dab)
+	)
+	(rectangle
+		(start 213.36 71.12)
+		(end 213.36 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ab6bd43e-cc32-407f-b1ef-130a3e05357b)
+	)
+	(arc
+		(start 111.76 129.54)
+		(mid 110.1818 125.73)
+		(end 111.76 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b792deb3-37cb-4717-9d82-d4d4eee34848)
+	)
+	(rectangle
+		(start 201.93 74.93)
+		(end 226.06 120.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid b7d661ba-a16f-43c7-9f74-2fe99de40330)
+	)
+	(rectangle
+		(start 121.92 128.27)
+		(end 157.48 128.2954)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb1fde15-765b-4600-9d9e-68a1c83f4ba5)
+	)
+	(rectangle
+		(start 121.92 102.87)
+		(end 152.4 102.87)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb21a378-76df-45e2-89fe-5f47ecc525c9)
+	)
+	(rectangle
+		(start 121.92 77.47)
+		(end 129.54 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c4a3d8fa-b377-4de4-b2fd-7ad41b43dc6e)
+	)
+	(rectangle
+		(start 170.18 71.12)
+		(end 170.18 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cb7e3a4a-01cd-434f-9a83-26153a70cd6b)
+	)
+	(rectangle
+		(start 121.92 90.17)
+		(end 152.4 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cece84cd-26ab-4118-b870-b7f638a5b89d)
+	)
+	(rectangle
+		(start 154.94 69.85)
+		(end 154.94 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d02643fb-8685-428b-83fe-d67f3f43f84a)
+	)
+	(rectangle
+		(start 219.71 120.65)
+		(end 219.71 138.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d21c039d-2dd4-41b6-ab65-26b1a66d635a)
+	)
+	(rectangle
+		(start 250.19 90.17)
+		(end 254 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d2cc4aab-37be-4a86-92b9-79b2a2c901eb)
+	)
+	(rectangle
+		(start 194.31 81.28)
+		(end 201.93 81.28)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d5294b0f-45d3-4f48-a4d6-1ccf014b83b2)
+	)
+	(rectangle
+		(start 250.19 77.47)
+		(end 254 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d871bb30-410e-41d5-ac07-406f9468bfea)
+	)
+	(rectangle
+		(start 232.41 96.52)
+		(end 247.65 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid dac56b22-2d40-4cc1-aa5c-98bb08252c24)
+	)
+	(rectangle
+		(start 111.76 125.73)
+		(end 121.92 130.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid db9da9bf-e2ae-4916-9e02-711fc7711eb8)
+	)
+	(rectangle
+		(start 254 74.93)
+		(end 264.16 80.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid dc774a7c-953f-4962-bd59-457ac28c4ce4)
+	)
+	(rectangle
+		(start 180.34 125.73)
+		(end 195.58 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid e2958c7e-d03b-4a00-bd3b-80d0983267a3)
+	)
+	(rectangle
+		(start 232.41 74.93)
+		(end 247.65 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid e52d633d-184c-4aef-b89d-45c8533a0426)
+	)
+	(rectangle
+		(start 129.54 67.31)
+		(end 144.78 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid e9cc92af-00ae-4c8e-9350-3e44aba0dc5d)
+	)
+	(rectangle
+		(start 226.06 119.38)
+		(end 243.84 119.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ea0b38b2-1883-4ac1-9ed1-8d31b63cf260)
+	)
+	(rectangle
+		(start 111.76 93.98)
+		(end 121.92 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid f4920c4c-a298-49a4-ad72-b69086b74bbd)
+	)
+	(rectangle
+		(start 226.06 81.28)
+		(end 232.41 81.28)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f4b4c962-b681-4d5e-8095-4dbd8c12baf5)
+	)
+	(rectangle
+		(start 111.76 81.28)
+		(end 121.92 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid f528e8ce-7877-4622-ab4e-a525dfa356d8)
+	)
+	(rectangle
+		(start 229.87 92.71)
+		(end 229.87 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f6ab9cd8-72b1-4539-8bbc-7308392e9aa7)
+	)
+	(rectangle
+		(start 106.68 34.29)
+		(end 269.24 148.59)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f7c1bf3c-fa1b-4611-b1c9-26bb84a63706)
+	)
+	(rectangle
+		(start 121.92 109.22)
+		(end 152.4 109.22)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f8ceb970-b4e6-43ff-a3e8-5de3d0ebf975)
+	)
+	(rectangle
+		(start 33.02 34.29)
+		(end 87.63 149.86)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f9e4894a-5982-475e-8906-bdf28ba40c97)
+	)
+	(text "QSPI"
+		(exclude_from_sim no)
+		(at 227.33 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "046db59e-1dc8-44ca-bc52-1ba75a7a4fc9")
+	)
+	(text "SPI, RGB"
+		(exclude_from_sim no)
+		(at 132.588 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08e3f1bc-142c-49a5-973e-9c18f7c02ccc")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 227.33 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0925a845-21c5-4f1c-836e-48c9c6db1379")
+	)
+	(text "I2C RTC"
+		(exclude_from_sim no)
+		(at 236.22 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bb1f8a3-99d6-466f-8ea9-045f54c44eab")
+	)
+	(text "Tape Out"
+		(exclude_from_sim no)
+		(at 113.03 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d7f5c02-bf4a-4496-8907-aa038a2dc77e")
+	)
+	(text "SD 2"
+		(exclude_from_sim no)
+		(at 114.3 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10d1cd2b-55c2-4ee8-a89c-8b45c32c12e4")
+	)
+	(text "DVI"
+		(exclude_from_sim no)
+		(at 256.54 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18de9d27-1ef9-4876-bc59-751cfdad3b33")
+	)
+	(text "USB2"
+		(exclude_from_sim no)
+		(at 256.54 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18f647c7-7dd6-45b6-b702-464dee8d0688")
+	)
+	(text "USB1"
+		(exclude_from_sim no)
+		(at 256.54 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18fee8b3-b858-4f4a-b374-d1aab148572a")
+	)
+	(text "I2C EEPROM"
+		(exclude_from_sim no)
+		(at 233.68 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "190c9bad-2ace-4a28-bb96-fd5d9d8f132f")
+	)
+	(text "24 i/o + FT SPI + I2S in"
+		(exclude_from_sim no)
+		(at 124.46 96.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21c6bb09-5c92-41c8-aca4-118ce3f244fa")
+	)
+	(text "Flash"
+		(exclude_from_sim no)
+		(at 114.3 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2444bf1e-66f7-40e2-ad29-b89a7c675182")
+	)
+	(text "FT812"
+		(exclude_from_sim no)
+		(at 114.3 116.586 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "256ec9e5-14b9-4c5b-8ed9-d46f9aa3b2ed")
+	)
+	(text "MIDI UART"
+		(exclude_from_sim no)
+		(at 132.588 128.0414 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e7e5dc3-2ce0-440b-b92a-dc0d728b3e2e")
+	)
+	(text "i/o"
+		(exclude_from_sim no)
+		(at 196.85 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "310cb5e0-a569-47bc-90c5-c9299a1f8297")
+	)
+	(text "XC6SLX25\nFPGA"
+		(exclude_from_sim no)
+		(at 170.18 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31768678-7caa-4ed9-86b9-7bf97103b7bc")
+	)
+	(text "Tape In"
+		(exclude_from_sim no)
+		(at 113.03 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "374c6260-ad60-4106-b66d-09714c62ea39")
+	)
+	(text "DVI"
+		(exclude_from_sim no)
+		(at 213.36 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "375914fe-64ce-4471-8776-7f85f94e85b1")
+	)
+	(text "UART"
+		(exclude_from_sim no)
+		(at 148.59 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a9c3c8f-43a7-4588-8726-21c4c1019991")
+	)
+	(text "RST"
+		(exclude_from_sim no)
+		(at 217.17 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d970599-23f1-4e4a-bb93-d6d8d2c68fa3")
+	)
+	(text "USB\nhub"
+		(exclude_from_sim no)
+		(at 238.76 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47aa7448-7cf8-4a12-9b23-d02e3801a64b")
+	)
+	(text "ADC"
+		(exclude_from_sim no)
+		(at 114.3 122.936 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a2cc5a4-cbb9-4425-8adb-c325b3f1f920")
+	)
+	(text "50 MHz clk"
+		(exclude_from_sim no)
+		(at 165.1 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fe9d435-9f1d-42ad-bcba-12e0debb840a")
+	)
+	(text "SD 1"
+		(exclude_from_sim no)
+		(at 256.54 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52541593-5560-4f63-8538-9fd382dad33e")
+	)
+	(text "SPI"
+		(exclude_from_sim no)
+		(at 227.33 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "613326a2-3696-428e-b67c-1c2b3e55c7bd")
+	)
+	(text "LM311"
+		(exclude_from_sim no)
+		(at 133.35 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61910fd0-e39d-428c-886d-a42de3408d91")
+	)
+	(text "USB4"
+		(exclude_from_sim no)
+		(at 256.54 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71a0b17d-d4d0-430a-8a89-932b0ae634f0")
+	)
+	(text "I2S"
+		(exclude_from_sim no)
+		(at 132.588 121.666 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79ce8fdd-4dea-45a4-9d95-77195993b58d")
+	)
+	(text "SRAM\n4MB"
+		(exclude_from_sim no)
+		(at 184.15 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81080210-dc46-486d-867c-cfe1bb157642")
+	)
+	(text "Audio"
+		(exclude_from_sim no)
+		(at 256.54 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8213df1b-47b5-4264-ab53-dfd49e9bba64")
+	)
+	(text "QSPI"
+		(exclude_from_sim no)
+		(at 134.62 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "909913d8-92b8-4837-97aa-9a71ec73dc80")
+	)
+	(text "Functional schematics"
+		(exclude_from_sim no)
+		(at 109.22 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6d5d6d8-dfe4-411a-8de3-1e5f1e72fa8c")
+	)
+	(text "SDRAM\n32MB"
+		(exclude_from_sim no)
+		(at 165.1 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab3f0b16-557f-498d-9de9-ca40b99d8e86")
+	)
+	(text "LEDs"
+		(exclude_from_sim no)
+		(at 256.54 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acea0d50-dcd5-482e-806f-93430095429e")
+	)
+	(text "SPI"
+		(exclude_from_sim no)
+		(at 196.85 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af06fc91-871f-4456-9921-f93b4b7339c8")
+	)
+	(text "SPI"
+		(exclude_from_sim no)
+		(at 134.62 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af5fb516-a041-448f-83d6-a23bf96d1b84")
+	)
+	(text "I2S Audio"
+		(exclude_from_sim no)
+		(at 213.36 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3ff18e2-d3d0-4595-998d-4a6b9feedc63")
+	)
+	(text "uBUS"
+		(exclude_from_sim no)
+		(at 114.3 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b43ca314-9755-44df-bfcc-f888dcfe9dd3")
+	)
+	(text "CFG"
+		(exclude_from_sim no)
+		(at 196.85 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bde71500-f13c-4681-8d6f-f6db83b1e4c6")
+	)
+	(text "USB (UART + Power)"
+		(exclude_from_sim no)
+		(at 213.36 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdf12554-0f11-4504-bb30-f6138216fbe3")
+	)
+	(text "JTAG"
+		(exclude_from_sim no)
+		(at 134.62 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c509cfc0-b6ad-4fae-8b40-5b3d45f4b3ec")
+	)
+	(text "USB C"
+		(exclude_from_sim no)
+		(at 256.54 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5519f85-42eb-4103-ba8e-4070bc8cf938")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 227.33 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5d1dab4-57b5-4273-9972-ea12565ae0e1")
+	)
+	(text "DAC"
+		(exclude_from_sim no)
+		(at 235.712 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf42cee1-4a4a-4c2b-9b72-d3e20bbe0876")
+	)
+	(text "USB3"
+		(exclude_from_sim no)
+		(at 256.54 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d10db631-3d0f-4ec1-b422-03a71b40e697")
+	)
+	(text "Boot"
+		(exclude_from_sim no)
+		(at 205.74 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d789f6d6-0ded-4c62-bb3c-0a59211f8a8d")
+	)
+	(text "ESP8266"
+		(exclude_from_sim no)
+		(at 133.35 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9b8b54d-7b64-4f30-b2cf-e8abdba1301d")
+	)
+	(text "TODO:\n+ убрать кварц FT, соединить с шаром от MCU_IO4 (оторвать от 2040)\n+ отключить FT_AUDIO, FT_DISPLAY от FPGA\n+ выкинуть ШИМ ЦАП, заменить на I2S кодек (UDA1334 или PCM5102)\n+ оторвать FT_PD от FPGA и прокинуть к 2040\n+ оторвать MIDI_CLK от FPGA и заменить на кварц 12 МГц\n+ оторвать MIDI_RST от FPGA и прокинуть на 2040 \n+ оторвать ESP_BOOT и ESP_RESET от FPGA, \n+ завести ESP_RESET на MCU\n+ кинуть FT GPIO 00, 01 и ее SPI на гребенку (на 2 этаже будет ESP32)\n+ на гребенку вывести ВХОД для I2S от ESP32\n+ добавить диод на HDMI 5V\n+ перекинуть пин MCU_SCK на GCLK пин FPGA\n+ перекинуть пин ADC_BCK на GCLK пин FPGA\n+ перекинуть пин FT_CLK на GCLK пин FPGA\n"
+		(exclude_from_sim no)
+		(at 33.02 167.386 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1eaa1ec-6ea3-463c-8200-7b91eb300586")
+	)
+	(text "Flash"
+		(exclude_from_sim no)
+		(at 256.54 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8279a8e-7247-436e-958f-fe34387380a2")
+	)
+	(text "JTAG"
+		(exclude_from_sim no)
+		(at 114.3 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2d4dc08-5526-45d1-b327-2eefc32c83ad")
+	)
+	(text "SAM2695"
+		(exclude_from_sim no)
+		(at 112.522 129.286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f76d0d0a-f5d3-469b-88e3-a4f7598914c0")
+	)
+	(text "Sheets"
+		(exclude_from_sim no)
+		(at 35.56 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb7953e4-9e3e-46fa-81c3-9296679267df")
+	)
+	(text "BTNs"
+		(exclude_from_sim no)
+		(at 256.54 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc491cce-7cce-4a3b-bb0c-be9bb519e249")
+	)
+	(text "RP2040\nMCU"
+		(exclude_from_sim no)
+		(at 209.55 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "feb3c914-dfc0-44cd-9952-f0064ba6b880")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13b2259c-a5b3-466c-9ed2-840b0c467518")
+		(property "Reference" "#PWR03"
+			(at 154.94 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 155.067 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e60a7e1-8176-4d10-9e68-256ec30c9909")
+		)
+		(instances
+			(project "karabas-mini"
+				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2675628e-e71d-4ebc-8ac8-35ad90973eb9")
+		(property "Reference" "#PWR02"
+			(at 137.16 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.287 192.3542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38b0c4e2-77a3-4a04-bc30-9cfe48ec188c")
+		)
+		(instances
+			(project "karabas-mini"
+				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e653eca-a374-4533-96c3-e1dfba169949")
+		(property "Reference" "#PWR01"
+			(at 137.16 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.287 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a790865e-7bc8-46f3-a103-733a23e767f1")
+		)
+		(instances
+			(project "karabas-mini"
+				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 137.16 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6517de66-bc55-4391-a265-05dd9981d87b")
+		(property "Reference" "H2"
+			(at 139.7 184.2516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 139.7 186.563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 137.16 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cc59083-4374-442e-acbc-786818921732")
+		)
+		(instances
+			(project "karabas-mini"
+				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 154.94 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70e9c491-32ea-4da2-9c67-46f2351c78fc")
+		(property "Reference" "H4"
+			(at 157.48 184.2516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 157.48 186.563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 154.94 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97588bb1-72a5-4f5d-83ec-4f728503849e")
+		)
+		(instances
+			(project "karabas-mini"
+				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 154.94 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9472d345-065a-4feb-b4fd-0f4d692b974f")
+		(property "Reference" "H3"
+			(at 157.48 169.0116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 157.48 171.323 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 154.94 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a5fe0f2-8a1d-4473-b0a0-d9fe3d2b6fa6")
+		)
+		(instances
+			(project "karabas-mini"
+				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 137.16 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3b5319d-c769-40ab-ba69-3fe22d4d3ab1")
+		(property "Reference" "H1"
+			(at 139.7 169.0116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 139.7 171.323 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 137.16 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fce92d87-8354-4ff0-96ab-02e00a0ab9c7")
+		)
+		(instances
+			(project "karabas-mini"
+				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f410c704-66dc-4998-abe8-f5d351a250d3")
+		(property "Reference" "#PWR04"
+			(at 154.94 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 155.067 192.3542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e264c0ff-8c19-454b-95dc-b5277cd584b8")
+		)
+		(instances
+			(project "karabas-mini"
+				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 73.66)
+		(size 20.32 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 255 1.0000)
+		)
+		(uuid "1680b5ee-aa42-4fdf-9b7e-2b7396a922a0")
+		(property "Sheetname" "FPGA2"
+			(at 49.53 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga2.kicad_sch"
+			(at 49.53 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "karabas-mini"
+				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 118.11)
+		(size 20.32 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 255 1.0000)
+		)
+		(uuid "34157a6c-fe5b-4b27-a58b-efdaac9599d0")
+		(property "Sheetname" "Interfaces"
+			(at 49.53 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interfaces.kicad_sch"
+			(at 49.53 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "karabas-mini"
+				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 58.42)
+		(size 20.32 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "8156360b-2e6b-4180-bc5a-5f304755f359")
+		(property "Sheetname" "FPGA"
+			(at 49.53 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga.kicad_sch"
+			(at 49.53 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "karabas-mini"
+				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 44.45)
+		(size 20.32 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 153 0 1.0000)
+		)
+		(uuid "aeb25ef9-b705-4fe0-b117-b7f20e33e486")
+		(property "Sheetname" "RP2040"
+			(at 49.53 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp2040.kicad_sch"
+			(at 49.53 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "karabas-mini"
+				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 88.9)
+		(size 20.32 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 1.0000)
+		)
+		(uuid "ba614d64-5a02-4c7a-993a-280e504b1e08")
+		(property "Sheetname" "VGA"
+			(at 49.53 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vga.kicad_sch"
+			(at 49.53 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "karabas-mini"
+				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 104.14)
+		(size 20.32 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 0 1.0000)
+		)
+		(uuid "c9d820c1-ed97-46d5-b9d2-9cd3c5bb0e50")
+		(property "Sheetname" "Storage"
+			(at 49.53 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "storage.kicad_sch"
+			(at 49.53 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "karabas-mini"
+				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
