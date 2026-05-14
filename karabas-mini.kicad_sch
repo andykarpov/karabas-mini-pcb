@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "3ea0d469-753b-4b31-8a3d-1341413bdcc8")
 	(paper "A4")
 	(title_block
 		(title "Karabas-Mini")
-		(date "2025-09-14")
-		(rev "G")
+		(date "2026-03-23")
+		(rev "G2")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
@@ -21,8 +21,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,6 +35,8 @@
 			)
 			(property "Value" "MountingHole_Pad"
 				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -39,47 +45,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MountingHole_Pad_0_1"
@@ -118,24 +134,30 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -144,38 +166,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -227,7 +257,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 00131d38-b089-4ff1-9eee-9b6ff142b4bb)
+		(uuid "00131d38-b089-4ff1-9eee-9b6ff142b4bb")
 	)
 	(rectangle
 		(start 250.19 87.63)
@@ -239,7 +269,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 005b336a-d97e-4df1-a9dc-049232c4a130)
+		(uuid "005b336a-d97e-4df1-a9dc-049232c4a130")
 	)
 	(rectangle
 		(start 111.76 113.03)
@@ -252,7 +282,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 00bc920e-a24e-4ae8-ab53-5725129b9c03)
+		(uuid "00bc920e-a24e-4ae8-ab53-5725129b9c03")
 	)
 	(rectangle
 		(start 121.92 83.82)
@@ -264,7 +294,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 0129a929-7b02-46e2-8901-3afb0c62f049)
+		(uuid "0129a929-7b02-46e2-8901-3afb0c62f049")
 	)
 	(rectangle
 		(start 243.84 119.38)
@@ -276,7 +306,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 023a354a-26af-4362-bccb-28a9814b2bfe)
+		(uuid "023a354a-26af-4362-bccb-28a9814b2bfe")
 	)
 	(rectangle
 		(start 213.36 71.12)
@@ -288,7 +318,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 05ed64ed-cada-4b3a-8651-35cca681b386)
+		(uuid "05ed64ed-cada-4b3a-8651-35cca681b386")
 	)
 	(rectangle
 		(start 242.57 58.42)
@@ -300,7 +330,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 065a82cc-a9b6-4589-9b8d-fd96ddbbc305)
+		(uuid "065a82cc-a9b6-4589-9b8d-fd96ddbbc305")
 	)
 	(rectangle
 		(start 111.76 87.63)
@@ -313,7 +343,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 0664a49f-9091-477b-8c14-812e36713b69)
+		(uuid "0664a49f-9091-477b-8c14-812e36713b69")
 	)
 	(rectangle
 		(start 191.77 64.77)
@@ -325,7 +355,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 0a304f7e-2f07-4eee-ba3c-8e479c496baf)
+		(uuid "0a304f7e-2f07-4eee-ba3c-8e479c496baf")
 	)
 	(rectangle
 		(start 111.76 119.38)
@@ -338,7 +368,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 0d1a05e6-1a20-4541-89ce-d82301482d25)
+		(uuid "0d1a05e6-1a20-4541-89ce-d82301482d25")
 	)
 	(rectangle
 		(start 194.31 91.44)
@@ -350,7 +380,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 0d71ee5f-b5d5-4608-b21e-2cdd32038831)
+		(uuid "0d71ee5f-b5d5-4608-b21e-2cdd32038831")
 	)
 	(rectangle
 		(start 162.56 66.04)
@@ -363,7 +393,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 0ece1b44-a897-4017-ad88-a162d7f698cd)
+		(uuid "0ece1b44-a897-4017-ad88-a162d7f698cd")
 	)
 	(rectangle
 		(start 157.4546 120.65)
@@ -375,7 +405,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 0faf19c8-8ef4-45a9-981e-2342a8521384)
+		(uuid "0faf19c8-8ef4-45a9-981e-2342a8521384")
 	)
 	(rectangle
 		(start 144.78 77.47)
@@ -387,7 +417,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 12b9278f-74c5-495d-9bfc-6c8d647d2778)
+		(uuid "12b9278f-74c5-495d-9bfc-6c8d647d2778")
 	)
 	(rectangle
 		(start 226.06 107.95)
@@ -399,7 +429,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 133f99cd-c0dd-4a66-a85d-303d7e252cd2)
+		(uuid "133f99cd-c0dd-4a66-a85d-303d7e252cd2")
 	)
 	(rectangle
 		(start 226.06 92.71)
@@ -411,7 +441,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 13c917ea-6f45-49c6-abf9-c6d2429ff754)
+		(uuid "13c917ea-6f45-49c6-abf9-c6d2429ff754")
 	)
 	(rectangle
 		(start 121.92 96.52)
@@ -423,7 +453,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 1a9b7ce3-665e-4540-8765-9cd9c43219d1)
+		(uuid "1a9b7ce3-665e-4540-8765-9cd9c43219d1")
 	)
 	(rectangle
 		(start 144.78 69.85)
@@ -435,7 +465,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 1be94c5f-499f-48b9-8fa8-02a8e2c119bd)
+		(uuid "1be94c5f-499f-48b9-8fa8-02a8e2c119bd")
 	)
 	(rectangle
 		(start 186.69 58.42)
@@ -447,7 +477,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 2298c978-c902-4e29-b097-24eb25e9145d)
+		(uuid "2298c978-c902-4e29-b097-24eb25e9145d")
 	)
 	(rectangle
 		(start 226.06 115.57)
@@ -459,7 +489,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 22af83c3-e639-45e2-9344-d43343d99356)
+		(uuid "22af83c3-e639-45e2-9344-d43343d99356")
 	)
 	(rectangle
 		(start 250.19 83.82)
@@ -471,7 +501,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 244d469e-89ed-443b-9352-c9764d8e5a8a)
+		(uuid "244d469e-89ed-443b-9352-c9764d8e5a8a")
 	)
 	(rectangle
 		(start 254 55.88)
@@ -484,7 +514,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 26e58d86-fd61-4014-b5e9-18c0f2036f55)
+		(uuid "26e58d86-fd61-4014-b5e9-18c0f2036f55")
 	)
 	(rectangle
 		(start 254 93.98)
@@ -497,7 +527,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 290242ff-44b2-4f91-8084-dd4cd8db0eb1)
+		(uuid "290242ff-44b2-4f91-8084-dd4cd8db0eb1")
 	)
 	(rectangle
 		(start 229.87 99.06)
@@ -509,7 +539,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 2975b486-55d3-4547-907f-e02352ae1c27)
+		(uuid "2975b486-55d3-4547-907f-e02352ae1c27")
 	)
 	(rectangle
 		(start 111.76 106.68)
@@ -522,7 +552,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 35f1ac6d-6e95-47ca-b73e-2ed4f9680ce9)
+		(uuid "35f1ac6d-6e95-47ca-b73e-2ed4f9680ce9")
 	)
 	(rectangle
 		(start 154.9146 120.65)
@@ -534,7 +564,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 39f9469d-acdd-44c2-b922-55ebf91293dd)
+		(uuid "39f9469d-acdd-44c2-b922-55ebf91293dd")
 	)
 	(rectangle
 		(start 111.76 100.33)
@@ -547,7 +577,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 3dab039f-476e-417c-9d79-61eeb631b101)
+		(uuid "3dab039f-476e-417c-9d79-61eeb631b101")
 	)
 	(rectangle
 		(start 208.28 120.65)
@@ -559,7 +589,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 3ea8fc6b-85e9-4eeb-8f4c-34b6dee6dcbd)
+		(uuid "3ea8fc6b-85e9-4eeb-8f4c-34b6dee6dcbd")
 	)
 	(rectangle
 		(start 246.38 128.27)
@@ -571,7 +601,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 4041b868-90e8-4dcc-9d1a-a570949d4bf5)
+		(uuid "4041b868-90e8-4dcc-9d1a-a570949d4bf5")
 	)
 	(rectangle
 		(start 250.19 83.82)
@@ -583,7 +613,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 446d1d60-d5ab-4c7c-9d49-5403f4545666)
+		(uuid "446d1d60-d5ab-4c7c-9d49-5403f4545666")
 	)
 	(rectangle
 		(start 254 87.63)
@@ -596,7 +626,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 44b874fd-d553-4ed6-8131-fe8e1fa11909)
+		(uuid "44b874fd-d553-4ed6-8131-fe8e1fa11909")
 	)
 	(rectangle
 		(start 121.92 115.57)
@@ -608,7 +638,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 478e3962-3e09-4ae3-8913-fbc7433a659b)
+		(uuid "478e3962-3e09-4ae3-8913-fbc7433a659b")
 	)
 	(rectangle
 		(start 129.54 74.93)
@@ -621,7 +651,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 47fc0a66-24bd-4366-b5b7-d739927c0f48)
+		(uuid "47fc0a66-24bd-4366-b5b7-d739927c0f48")
 	)
 	(rectangle
 		(start 246.38 115.57)
@@ -633,7 +663,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 47feefd8-9105-4ef2-b760-79c846b49773)
+		(uuid "47feefd8-9105-4ef2-b760-79c846b49773")
 	)
 	(arc
 		(start 111.76 121.92)
@@ -646,7 +676,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 4c841311-5273-4fbf-be3e-3d3459f3401f)
+		(uuid "4c841311-5273-4fbf-be3e-3d3459f3401f")
 	)
 	(rectangle
 		(start 243.84 134.62)
@@ -658,7 +688,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 4cbb612f-57a6-4c5a-8132-c49c5d0ea5ca)
+		(uuid "4cbb612f-57a6-4c5a-8132-c49c5d0ea5ca")
 	)
 	(rectangle
 		(start 152.4 74.93)
@@ -671,7 +701,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 4d00efb7-4579-4638-a3bd-c11a8a981781)
+		(uuid "4d00efb7-4579-4638-a3bd-c11a8a981781")
 	)
 	(rectangle
 		(start 121.92 121.8946)
@@ -683,7 +713,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 4eb24ec5-0eb5-42ca-b495-095391f119bb)
+		(uuid "4eb24ec5-0eb5-42ca-b495-095391f119bb")
 	)
 	(rectangle
 		(start 160.02 124.46)
@@ -696,7 +726,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 541091a6-4684-4867-a63c-586383146c31)
+		(uuid "541091a6-4684-4867-a63c-586383146c31")
 	)
 	(rectangle
 		(start 232.41 55.88)
@@ -709,7 +739,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 5ef8fae4-a160-4cd3-9d82-b995a9203ba9)
+		(uuid "5ef8fae4-a160-4cd3-9d82-b995a9203ba9")
 	)
 	(rectangle
 		(start 254 62.23)
@@ -722,7 +752,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 619b8d66-6fb1-4331-a7a8-eedabca1fc19)
+		(uuid "619b8d66-6fb1-4331-a7a8-eedabca1fc19")
 	)
 	(rectangle
 		(start 203.2 138.43)
@@ -735,7 +765,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 61b4a0bd-dc44-4f5e-be35-5a8b9e76e54a)
+		(uuid "61b4a0bd-dc44-4f5e-be35-5a8b9e76e54a")
 	)
 	(rectangle
 		(start 254 125.73)
@@ -748,7 +778,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 6c938232-80c7-4562-8d9a-5fdaacd4d525)
+		(uuid "6c938232-80c7-4562-8d9a-5fdaacd4d525")
 	)
 	(rectangle
 		(start 232.41 90.17)
@@ -761,7 +791,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 6caf5c36-440a-4a63-9953-656ec3159207)
+		(uuid "6caf5c36-440a-4a63-9953-656ec3159207")
 	)
 	(rectangle
 		(start 250.19 77.47)
@@ -773,7 +803,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 6f2d88c9-2551-4e00-8265-4d1567bf1988)
+		(uuid "6f2d88c9-2551-4e00-8265-4d1567bf1988")
 	)
 	(rectangle
 		(start 194.31 86.36)
@@ -785,7 +815,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 7524bdb0-b0fd-4ea8-8f6c-3713dca41cba)
+		(uuid "7524bdb0-b0fd-4ea8-8f6c-3713dca41cba")
 	)
 	(rectangle
 		(start 186.69 120.65)
@@ -797,7 +827,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 77d48d0d-6a6c-43e7-8b97-1a9f5d93faf4)
+		(uuid "77d48d0d-6a6c-43e7-8b97-1a9f5d93faf4")
 	)
 	(rectangle
 		(start 226.06 102.87)
@@ -809,7 +839,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 77f33ad1-a2e9-4ed8-a005-e9746c6d63ea)
+		(uuid "77f33ad1-a2e9-4ed8-a005-e9746c6d63ea")
 	)
 	(rectangle
 		(start 254 81.28)
@@ -822,7 +852,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 7cc703a1-c5cc-4b59-8ecd-6a545129417f)
+		(uuid "7cc703a1-c5cc-4b59-8ecd-6a545129417f")
 	)
 	(rectangle
 		(start 247.65 82.55)
@@ -834,7 +864,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 7ede384d-fba1-429d-b7d0-e01dc99db5e6)
+		(uuid "7ede384d-fba1-429d-b7d0-e01dc99db5e6")
 	)
 	(rectangle
 		(start 254 106.68)
@@ -847,7 +877,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 8bbab8ec-af85-4a61-bdc8-81ea814fd25c)
+		(uuid "8bbab8ec-af85-4a61-bdc8-81ea814fd25c")
 	)
 	(rectangle
 		(start 186.69 58.3946)
@@ -859,7 +889,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 91a7715e-6d66-4008-931b-f08d22420c7d)
+		(uuid "91a7715e-6d66-4008-931b-f08d22420c7d")
 	)
 	(rectangle
 		(start 191.77 64.77)
@@ -871,7 +901,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 93caf469-779c-40d5-be85-161755fb96c5)
+		(uuid "93caf469-779c-40d5-be85-161755fb96c5")
 	)
 	(rectangle
 		(start 111.76 74.93)
@@ -884,7 +914,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 93e86035-3ed5-4a5c-8c67-ea880f54f68f)
+		(uuid "93e86035-3ed5-4a5c-8c67-ea880f54f68f")
 	)
 	(rectangle
 		(start 167.64 120.65)
@@ -896,7 +926,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 94f2d673-2555-4703-af97-58fcdbc39140)
+		(uuid "94f2d673-2555-4703-af97-58fcdbc39140")
 	)
 	(rectangle
 		(start 179.07 124.46)
@@ -909,7 +939,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 95b3f990-4414-43fb-bb75-54be5ed4e1e9)
+		(uuid "95b3f990-4414-43fb-bb75-54be5ed4e1e9")
 	)
 	(rectangle
 		(start 254 68.58)
@@ -922,7 +952,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 97d5b346-7244-43b5-b657-bff123d33c4e)
+		(uuid "97d5b346-7244-43b5-b657-bff123d33c4e")
 	)
 	(rectangle
 		(start 214.63 138.43)
@@ -935,7 +965,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid 9be4ec3f-a9d9-4390-8a80-b5b4b8b9b6ae)
+		(uuid "9be4ec3f-a9d9-4390-8a80-b5b4b8b9b6ae")
 	)
 	(rectangle
 		(start 250.19 96.52)
@@ -947,7 +977,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 9ec1af30-a4d2-4eba-8dcb-83402ede4200)
+		(uuid "9ec1af30-a4d2-4eba-8dcb-83402ede4200")
 	)
 	(rectangle
 		(start 254 100.33)
@@ -960,7 +990,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid a71e077b-d7c2-4da2-b671-80920a2e3dab)
+		(uuid "a71e077b-d7c2-4da2-b671-80920a2e3dab")
 	)
 	(rectangle
 		(start 213.36 71.12)
@@ -972,7 +1002,7 @@
 		(fill
 			(type none)
 		)
-		(uuid ab6bd43e-cc32-407f-b1ef-130a3e05357b)
+		(uuid "ab6bd43e-cc32-407f-b1ef-130a3e05357b")
 	)
 	(arc
 		(start 111.76 129.54)
@@ -985,7 +1015,7 @@
 		(fill
 			(type none)
 		)
-		(uuid b792deb3-37cb-4717-9d82-d4d4eee34848)
+		(uuid "b792deb3-37cb-4717-9d82-d4d4eee34848")
 	)
 	(rectangle
 		(start 201.93 74.93)
@@ -998,7 +1028,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid b7d661ba-a16f-43c7-9f74-2fe99de40330)
+		(uuid "b7d661ba-a16f-43c7-9f74-2fe99de40330")
 	)
 	(rectangle
 		(start 121.92 128.27)
@@ -1010,7 +1040,7 @@
 		(fill
 			(type none)
 		)
-		(uuid bb1fde15-765b-4600-9d9e-68a1c83f4ba5)
+		(uuid "bb1fde15-765b-4600-9d9e-68a1c83f4ba5")
 	)
 	(rectangle
 		(start 121.92 102.87)
@@ -1022,7 +1052,7 @@
 		(fill
 			(type none)
 		)
-		(uuid bb21a378-76df-45e2-89fe-5f47ecc525c9)
+		(uuid "bb21a378-76df-45e2-89fe-5f47ecc525c9")
 	)
 	(rectangle
 		(start 121.92 77.47)
@@ -1034,7 +1064,7 @@
 		(fill
 			(type none)
 		)
-		(uuid c4a3d8fa-b377-4de4-b2fd-7ad41b43dc6e)
+		(uuid "c4a3d8fa-b377-4de4-b2fd-7ad41b43dc6e")
 	)
 	(rectangle
 		(start 170.18 71.12)
@@ -1046,7 +1076,7 @@
 		(fill
 			(type none)
 		)
-		(uuid cb7e3a4a-01cd-434f-9a83-26153a70cd6b)
+		(uuid "cb7e3a4a-01cd-434f-9a83-26153a70cd6b")
 	)
 	(rectangle
 		(start 121.92 90.17)
@@ -1058,7 +1088,7 @@
 		(fill
 			(type none)
 		)
-		(uuid cece84cd-26ab-4118-b870-b7f638a5b89d)
+		(uuid "cece84cd-26ab-4118-b870-b7f638a5b89d")
 	)
 	(rectangle
 		(start 154.94 69.85)
@@ -1070,7 +1100,7 @@
 		(fill
 			(type none)
 		)
-		(uuid d02643fb-8685-428b-83fe-d67f3f43f84a)
+		(uuid "d02643fb-8685-428b-83fe-d67f3f43f84a")
 	)
 	(rectangle
 		(start 219.71 120.65)
@@ -1082,7 +1112,7 @@
 		(fill
 			(type none)
 		)
-		(uuid d21c039d-2dd4-41b6-ab65-26b1a66d635a)
+		(uuid "d21c039d-2dd4-41b6-ab65-26b1a66d635a")
 	)
 	(rectangle
 		(start 250.19 90.17)
@@ -1094,7 +1124,7 @@
 		(fill
 			(type none)
 		)
-		(uuid d2cc4aab-37be-4a86-92b9-79b2a2c901eb)
+		(uuid "d2cc4aab-37be-4a86-92b9-79b2a2c901eb")
 	)
 	(rectangle
 		(start 194.31 81.28)
@@ -1106,7 +1136,7 @@
 		(fill
 			(type none)
 		)
-		(uuid d5294b0f-45d3-4f48-a4d6-1ccf014b83b2)
+		(uuid "d5294b0f-45d3-4f48-a4d6-1ccf014b83b2")
 	)
 	(rectangle
 		(start 250.19 77.47)
@@ -1118,7 +1148,7 @@
 		(fill
 			(type none)
 		)
-		(uuid d871bb30-410e-41d5-ac07-406f9468bfea)
+		(uuid "d871bb30-410e-41d5-ac07-406f9468bfea")
 	)
 	(rectangle
 		(start 232.41 96.52)
@@ -1131,7 +1161,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid dac56b22-2d40-4cc1-aa5c-98bb08252c24)
+		(uuid "dac56b22-2d40-4cc1-aa5c-98bb08252c24")
 	)
 	(rectangle
 		(start 111.76 125.73)
@@ -1144,7 +1174,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid db9da9bf-e2ae-4916-9e02-711fc7711eb8)
+		(uuid "db9da9bf-e2ae-4916-9e02-711fc7711eb8")
 	)
 	(rectangle
 		(start 254 74.93)
@@ -1157,7 +1187,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid dc774a7c-953f-4962-bd59-457ac28c4ce4)
+		(uuid "dc774a7c-953f-4962-bd59-457ac28c4ce4")
 	)
 	(rectangle
 		(start 180.34 125.73)
@@ -1170,7 +1200,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid e2958c7e-d03b-4a00-bd3b-80d0983267a3)
+		(uuid "e2958c7e-d03b-4a00-bd3b-80d0983267a3")
 	)
 	(rectangle
 		(start 232.41 74.93)
@@ -1183,7 +1213,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid e52d633d-184c-4aef-b89d-45c8533a0426)
+		(uuid "e52d633d-184c-4aef-b89d-45c8533a0426")
 	)
 	(rectangle
 		(start 129.54 67.31)
@@ -1196,7 +1226,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid e9cc92af-00ae-4c8e-9350-3e44aba0dc5d)
+		(uuid "e9cc92af-00ae-4c8e-9350-3e44aba0dc5d")
 	)
 	(rectangle
 		(start 226.06 119.38)
@@ -1208,7 +1238,7 @@
 		(fill
 			(type none)
 		)
-		(uuid ea0b38b2-1883-4ac1-9ed1-8d31b63cf260)
+		(uuid "ea0b38b2-1883-4ac1-9ed1-8d31b63cf260")
 	)
 	(rectangle
 		(start 111.76 93.98)
@@ -1221,7 +1251,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid f4920c4c-a298-49a4-ad72-b69086b74bbd)
+		(uuid "f4920c4c-a298-49a4-ad72-b69086b74bbd")
 	)
 	(rectangle
 		(start 226.06 81.28)
@@ -1233,7 +1263,7 @@
 		(fill
 			(type none)
 		)
-		(uuid f4b4c962-b681-4d5e-8095-4dbd8c12baf5)
+		(uuid "f4b4c962-b681-4d5e-8095-4dbd8c12baf5")
 	)
 	(rectangle
 		(start 111.76 81.28)
@@ -1246,7 +1276,7 @@
 			(type color)
 			(color 255 255 194 1)
 		)
-		(uuid f528e8ce-7877-4622-ab4e-a525dfa356d8)
+		(uuid "f528e8ce-7877-4622-ab4e-a525dfa356d8")
 	)
 	(rectangle
 		(start 229.87 92.71)
@@ -1258,7 +1288,7 @@
 		(fill
 			(type none)
 		)
-		(uuid f6ab9cd8-72b1-4539-8bbc-7308392e9aa7)
+		(uuid "f6ab9cd8-72b1-4539-8bbc-7308392e9aa7")
 	)
 	(rectangle
 		(start 106.68 34.29)
@@ -1270,7 +1300,7 @@
 		(fill
 			(type none)
 		)
-		(uuid f7c1bf3c-fa1b-4611-b1c9-26bb84a63706)
+		(uuid "f7c1bf3c-fa1b-4611-b1c9-26bb84a63706")
 	)
 	(rectangle
 		(start 121.92 109.22)
@@ -1282,7 +1312,7 @@
 		(fill
 			(type none)
 		)
-		(uuid f8ceb970-b4e6-43ff-a3e8-5de3d0ebf975)
+		(uuid "f8ceb970-b4e6-43ff-a3e8-5de3d0ebf975")
 	)
 	(rectangle
 		(start 33.02 34.29)
@@ -1294,7 +1324,7 @@
 		(fill
 			(type none)
 		)
-		(uuid f9e4894a-5982-475e-8906-bdf28ba40c97)
+		(uuid "f9e4894a-5982-475e-8906-bdf28ba40c97")
 	)
 	(text "QSPI"
 		(exclude_from_sim no)
@@ -1813,17 +1843,6 @@
 		)
 		(uuid "d9b8b54d-7b64-4f30-b2cf-e8abdba1301d")
 	)
-	(text "TODO:\n+ убрать кварц FT, соединить с шаром от MCU_IO4 (оторвать от 2040)\n+ отключить FT_AUDIO, FT_DISPLAY от FPGA\n+ выкинуть ШИМ ЦАП, заменить на I2S кодек (UDA1334 или PCM5102)\n+ оторвать FT_PD от FPGA и прокинуть к 2040\n+ оторвать MIDI_CLK от FPGA и заменить на кварц 12 МГц\n+ оторвать MIDI_RST от FPGA и прокинуть на 2040 \n+ оторвать ESP_BOOT и ESP_RESET от FPGA, \n+ завести ESP_RESET на MCU\n+ кинуть FT GPIO 00, 01 и ее SPI на гребенку (на 2 этаже будет ESP32)\n+ на гребенку вывести ВХОД для I2S от ESP32\n+ добавить диод на HDMI 5V\n+ перекинуть пин MCU_SCK на GCLK пин FPGA\n+ перекинуть пин ADC_BCK на GCLK пин FPGA\n+ перекинуть пин FT_CLK на GCLK пин FPGA\n"
-		(exclude_from_sim no)
-		(at 33.02 167.386 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1eaa1ec-6ea3-463c-8200-7b91eb300586")
-	)
 	(text "Flash"
 		(exclude_from_sim no)
 		(at 256.54 135.89 0)
@@ -1894,22 +1913,28 @@
 		(lib_id "power:GND")
 		(at 154.94 172.72 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "13b2259c-a5b3-466c-9ed2-840b0c467518")
 		(property "Reference" "#PWR03"
 			(at 154.94 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 155.067 177.1142 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,24 +1943,30 @@
 		)
 		(property "Footprint" ""
 			(at 154.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 154.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 154.94 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,22 +1989,28 @@
 		(lib_id "power:GND")
 		(at 137.16 187.96 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2675628e-e71d-4ebc-8ac8-35ad90973eb9")
 		(property "Reference" "#PWR02"
 			(at 137.16 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 137.287 192.3542 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,24 +2019,30 @@
 		)
 		(property "Footprint" ""
 			(at 137.16 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 137.16 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 137.16 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,22 +2065,28 @@
 		(lib_id "power:GND")
 		(at 137.16 172.72 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e653eca-a374-4533-96c3-e1dfba169949")
 		(property "Reference" "#PWR01"
 			(at 137.16 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 137.287 177.1142 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,24 +2095,30 @@
 		)
 		(property "Footprint" ""
 			(at 137.16 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 137.16 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 137.16 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,13 +2141,17 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 137.16 185.42 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6517de66-bc55-4391-a265-05dd9981d87b")
 		(property "Reference" "H2"
 			(at 139.7 184.2516 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,6 +2161,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 139.7 186.563 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,24 +2172,30 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
 			(at 137.16 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 137.16 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 137.16 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,13 +2218,17 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 154.94 185.42 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "70e9c491-32ea-4da2-9c67-46f2351c78fc")
 		(property "Reference" "H4"
 			(at 157.48 184.2516 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2167,6 +2238,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 157.48 186.563 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,24 +2249,30 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
 			(at 154.94 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 154.94 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 154.94 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,13 +2295,17 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 154.94 170.18 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9472d345-065a-4feb-b4fd-0f4d692b974f")
 		(property "Reference" "H3"
 			(at 157.48 169.0116 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,6 +2315,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 157.48 171.323 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,24 +2326,30 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
 			(at 154.94 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 154.94 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 154.94 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,13 +2372,17 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 137.16 170.18 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3b5319d-c769-40ab-ba69-3fe22d4d3ab1")
 		(property "Reference" "H1"
 			(at 139.7 169.0116 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,6 +2392,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 139.7 171.323 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,24 +2403,30 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
 			(at 137.16 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 137.16 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 137.16 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,22 +2449,28 @@
 		(lib_id "power:GND")
 		(at 154.94 187.96 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f410c704-66dc-4998-abe8-f5d351a250d3")
 		(property "Reference" "#PWR04"
 			(at 154.94 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 155.067 192.3542 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,24 +2479,30 @@
 		)
 		(property "Footprint" ""
 			(at 154.94 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 154.94 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 154.94 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,11 +2534,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 255 255 1)
 		)
 		(uuid "1680b5ee-aa42-4fdf-9b7e-2b7396a922a0")
 		(property "Sheetname" "FPGA2"
 			(at 49.53 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,6 +2550,8 @@
 		)
 		(property "Sheetfile" "fpga2.kicad_sch"
 			(at 49.53 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,11 +2580,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 255 1.0000)
+			(color 0 0 255 1)
 		)
 		(uuid "34157a6c-fe5b-4b27-a58b-efdaac9599d0")
 		(property "Sheetname" "Interfaces"
 			(at 49.53 117.3984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,6 +2596,8 @@
 		)
 		(property "Sheetfile" "interfaces.kicad_sch"
 			(at 49.53 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,11 +2626,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 255 0 1.0000)
+			(color 0 255 0 1)
 		)
 		(uuid "8156360b-2e6b-4180-bc5a-5f304755f359")
 		(property "Sheetname" "FPGA"
 			(at 49.53 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,6 +2642,8 @@
 		)
 		(property "Sheetfile" "fpga.kicad_sch"
 			(at 49.53 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,11 +2672,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 153 0 1.0000)
+			(color 255 153 0 1)
 		)
 		(uuid "aeb25ef9-b705-4fe0-b117-b7f20e33e486")
 		(property "Sheetname" "RP2040"
 			(at 49.53 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,6 +2688,8 @@
 		)
 		(property "Sheetfile" "rp2040.kicad_sch"
 			(at 49.53 52.6546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,11 +2718,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 0 0 1.0000)
+			(color 255 0 0 1)
 		)
 		(uuid "ba614d64-5a02-4c7a-993a-280e504b1e08")
 		(property "Sheetname" "VGA"
 			(at 49.53 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,6 +2734,8 @@
 		)
 		(property "Sheetfile" "vga.kicad_sch"
 			(at 49.53 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,11 +2764,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 0 1.0000)
+			(color 255 255 0 1)
 		)
 		(uuid "c9d820c1-ed97-46d5-b9d2-9cd3c5bb0e50")
 		(property "Sheetname" "Storage"
 			(at 49.53 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,6 +2780,8 @@
 		)
 		(property "Sheetfile" "storage.kicad_sch"
 			(at 49.53 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
