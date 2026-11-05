@@ -1,0 +1,19 @@
+ERRATA revG2:
+
+1) SDRAM U11 pin 19 (~CS) is wired to FPGA U7 pin T3 (net ~{SDR_CS}). On the earlier revisions T3 is
+~{CONF_CS} and SDRAM ~CS is not connected to the FPGA, so the cores treat T3 as the flash chip select and
+drive it high (FLASH_CS_N = 1): the SDRAM is never selected and every core that uses it fails. Only
+karabas-go-core-sdram-test drives T3 as SDRAM ~CS.
+
+The net has no pull resistor, and the track is on the top layer only, without vias.
+
+Found in the schematic and the PCB files, not checked on a revG2 board.
+
+Hotfix: cut the ~{SDR_CS} track next to U11 pin 19 and connect pin 19 to GND through a 1k..10k resistor
+or a wire. A pull-down alone does not work: the FPGA output keeps the pin high.
+
+Software fix (needs a rebuild of each core): drive T3 low in the Mini G tops (FLASH_CS_N = 0). It is safe
+on revG too: the config flash footprint is not populated and no core uses it.
+Not needed together with the hotfix.
+
+Next revision: connect U11 pin 19 to GND.
