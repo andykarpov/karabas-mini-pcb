@@ -7,7 +7,8 @@ karabas-go-core-sdram-test drives T3 as SDRAM ~CS.
 
 The net has no pull resistor, and the track is on the top layer only, without vias.
 
-Found in the schematic and the PCB files, not checked on a revG2 board.
+Found in the schematic and the PCB files. Confirmed on a revG2 board: a 1k resistor from U11 pin 19 to GND
+fixed the SDRAM (issue #2, photo: https://github.com/andykarpov/karabas-go/blob/master/docs/mini/revG2_mod.md).
 
 Hotfix: cut the ~{SDR_CS} track next to U11 pin 19 and connect pin 19 to GND through a 1k..10k resistor
 or a wire. A pull-down alone does not work: the FPGA output keeps the pin high.
