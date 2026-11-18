@@ -107,6 +107,10 @@
           ""
         ],
         [
+          "courtyards_overlap|56757400|77957335|34f1445c-2b80-4534-97ce-751c88c43f4d|94a09a8e-6fd3-417c-9723-d412a85ea508",
+          ""
+        ],
+        [
           "courtyards_overlap|59991000|105686895|0bea537b-3103-495a-b532-3543568176ed|8de92f3a-a11c-4940-89c9-b8e211fc7da4",
           ""
         ],
@@ -168,10 +172,6 @@
         ],
         [
           "footprint_type_mismatch|86368000|107188000|48d50a30-39aa-4de5-a4bf-50ce0c10c14a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|59986000|96188000|0bea537b-3103-495a-b532-3543568176ed|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -247,11 +247,11 @@
           ""
         ],
         [
-          "starved_thermal|66521500|82677000|37e48c13-3330-43a7-bb16-cefd0377aa9e|8989f6ec-6816-43cc-ac8e-0ced265300e9|B.Cu",
+          "starved_thermal|67539700|47625000|37e48c13-3330-43a7-bb16-cefd0377aa9e|111ffada-471b-4e83-a69a-79d3c78f5fb8|B.Cu",
           ""
         ],
         [
-          "starved_thermal|67539700|47625000|37e48c13-3330-43a7-bb16-cefd0377aa9e|111ffada-471b-4e83-a69a-79d3c78f5fb8|B.Cu",
+          "starved_thermal|68927000|81477000|37e48c13-3330-43a7-bb16-cefd0377aa9e|3ff6c92d-ee05-4956-9f2c-693d26d1ac4d|F.Cu",
           ""
         ],
         [
@@ -429,6 +429,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -440,6 +441,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -451,6 +453,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -515,7 +518,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "G2"
+      "sch_revision": "G3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -746,6 +749,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -793,8 +797,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -947,7 +951,7 @@
         "uuid": "3ea0d469-753b-4b31-8a3d-1341413bdcc8"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR98,#PWR163-164,C77-78,R29,TP13",
     "variants": []
   },
   "sheets": [

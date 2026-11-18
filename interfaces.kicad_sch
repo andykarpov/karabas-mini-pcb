@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Karabas-Mini")
-		(date "2026-03-23")
-		(rev "G2")
+		(date "2026-11-18")
+		(rev "G3")
 	)
 	(lib_symbols
 		(symbol "Audio:PCM5102A"

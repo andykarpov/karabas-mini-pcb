@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Karabas-Mini")
-		(date "2026-03-23")
-		(rev "G2")
+		(date "2026-11-18")
+		(rev "G3")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -7378,30 +7378,6 @@
 			)
 		)
 	)
-	(global_label "~{SDR_CS}"
-		(shape input)
-		(at 36.83 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1b2f7cdc-2416-4591-82f9-46bb0116620d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.6482 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SDR_DQ14"
 		(shape output)
 		(at 143.51 102.87 0)
@@ -10774,6 +10750,81 @@
 			(project "karabas-mini"
 				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 36.83 143.51 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "292bc3a2-4218-4bca-bd98-7f02ed1b4f29")
+		(property "Reference" "TP13"
+			(at 25.908 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CSO"
+			(at 30.48 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 36.83 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5c4bb93-d09d-45eb-809d-7531239ed29f")
+		)
+		(instances
+			(project "karabas-mini"
+				(path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
